@@ -3,8 +3,9 @@
 FHIR **R5** instances (`.json` / `.xml`) used for the daily non-regression validation
 ([.github/workflows/validate-examples.yml](../.github/workflows/validate-examples.yml)).
 
-The folder is empty for the time being. While it holds no example, the workflow only
-reports "nothing to validate" and succeeds.
+`readi-engine/` holds the R5 versions of the READI engine samples. Do not edit them by
+hand: they are written by [sources/update-readi-samples.py](../sources/update-readi-samples.py)
+together with the copies in `sources/`.
 
 ## Conventions
 
