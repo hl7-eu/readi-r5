@@ -1,0 +1,869 @@
+{
+  "id": "nct05841355-bundle-1",
+  "type": "collection",
+  "resourceType": "Bundle",
+  "entry": [
+    {
+      "fullUrl": "https://example.org/resources/ResearchStudy/nct05841355-researchstudy-1",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "nct05841355-researchstudy-1",
+        "meta": {
+          "lastUpdated": "2026-11-12T06:54:46Z"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/artifact-useContext",
+            "valueUsageContext": {
+              "code": {
+                "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+                "code": "age",
+                "display": "Age Range"
+              },
+              "valueRange": {
+                "low": {
+                  "value": 40,
+                  "unit": "Year"
+                },
+                "high": {
+                  "value": 74,
+                  "unit": "Year"
+                }
+              }
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+            "extension": [
+              {
+                "url": "activity",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-submission-qc",
+                      "display": "Registration submission Quality Check"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2023-04-23"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+            "extension": [
+              {
+                "url": "activity",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-submission",
+                      "display": "Registration submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2023-04-23"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+            "extension": [
+              {
+                "url": "activity",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-posting",
+                      "display": "Registration posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2023-05-03"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+            "extension": [
+              {
+                "url": "activity",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "update-submission",
+                      "display": "Update submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2026-08-18"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+            "extension": [
+              {
+                "url": "activity",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "update-posting",
+                      "display": "Update posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2026-08-20"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+            "extension": [
+              {
+                "url": "activity",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "record-verification",
+                      "display": "Record Verification"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2026-08-30"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+            "extension": [
+              {
+                "url": "activity",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "primary-outcome-data-collection",
+                      "display": "Primary outcome data collection"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2026-09-30"
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "value": "NCT05841355",
+            "system": "http://terminology.hl7.org/NamingSystem/ClinicalTrials-Gov",
+            "assigner": {
+              "display": "ClinicalTrials.gov"
+            },
+            "type": {
+              "text": "study identifier"
+            }
+          },
+          {
+            "use": "official",
+            "value": "2022-0531",
+            "assigner": {
+              "display": "University of Illinois at Chicago"
+            }
+          }
+        ],
+        "name": "NCT05841355 FHIR Transform",
+        "title": "MADRE (Mammograms Available Due to Research and Education)",
+        "label": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/title-type",
+                  "code": "official",
+                  "display": "Official title"
+                }
+              ]
+            },
+            "value": "MADRE (Mammograms Available Due to Research and Education)"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/title-type",
+                  "code": "short-title",
+                  "display": "Short title"
+                }
+              ]
+            },
+            "value": "MADRE (Mammograms Available Due to Research and Education)"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/title-type",
+                  "code": "plain-language",
+                  "display": "Plain language title"
+                }
+              ]
+            },
+            "value": "MADRE (Mammograms Available Due to Research and Education)"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/title-type",
+                  "code": "acronym",
+                  "display": "Acronym"
+                }
+              ]
+            },
+            "value": "MADRE"
+          }
+        ],
+        "status": "active",
+        "primaryPurposeType": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-prim-purp-type",
+              "code": "screening",
+              "display": "Screening"
+            }
+          ]
+        },
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "n-a",
+              "display": "N/A"
+            }
+          ],
+          "text": "N/A"
+        },
+        "studyDesign": [
+          {
+            "coding": [
+              {
+                "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+                "code": "C98388",
+                "display": "Interventional Study"
+              },
+              {
+                "system": "http://hl7.org/fhir/study-design",
+                "code": "SEVCO:01001",
+                "display": "interventional research"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/study-design",
+                "code": "SEVCO:01011",
+                "display": "parallel cohort design"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/study-design",
+                "code": "SEVCO:01003",
+                "display": "randomized assignment"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/study-design",
+                "code": "SEVCO:01061",
+                "display": "Blinding of intervention providers"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/study-design",
+                "code": "SEVCO:01063",
+                "display": "Blinding of data analysts"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/study-design",
+                "code": "SEVCO:01062",
+                "display": "Blinding of outcome assessors"
+              }
+            ]
+          }
+        ],
+        "descriptionSummary": "The design builds on past studies by integrating social network analysis (SNA) and implementation science (IS) into a longitudinal randomized clinical trial (RCT). The investigator will compare the long-term effects of interventions by examining guideline-concordant initial and repeat Breast Cancer (BC) screening.",
+        "description": "To further test the added benefits of the empower approach relative to traditional educate approaches. Past community research has primarily focused on one-time BC screening among intervention participants. The design builds on past studies by integrating social network analysis (SNA) and implementation science (IS) into a longitudinal randomized clinical trial (RCT). The investigator will compare the long-term effects of interventions by examining guideline-concordant initial and repeat BC screening. The investigator will estimate the widespread effects of interventions by prospectively collecting data from network members not involved in the RCT. The investigator will also explore \"active ingredients\" that underlie intervention effects, including psychosocial, IS and network mechanisms. Overall, the investigator will demonstrate whether and how non-adherent individuals may \"boost\" intervention effects throughout their networks.\n\nThe investigator's goal is to further test the added benefits of the empower approach relative to traditional educate approaches. Past community research has primarily focused on one-time BC screening among intervention participants. The investigator's novel design builds on past studies by integrating social network analysis (SNA) and implementation science (IS) into a longitudinal randomized clinical trial (RCT). The investigator will compare the long-term effects of interventions by examining guideline-concordant initial and repeat BC screening. The investigator will estimate the widespread effects of interventions by prospectively collecting data from network members not involved in the RCT. The investigator will also explore \"active ingredients\" that underlie intervention effects, including psychosocial, IS and network mechanisms. Overall, the investigator will demonstrate whether and how non-adherent individuals may \"boost\" intervention effects throughout their networks.\n\nAim 1: Among 400 non-adherent individuals, the investigator will compare intervention effects on BC screening, using an individual RCT in a federally qualified health center (FQHC). The investigator will use the US Preventative Services Task Force (USPSTF) guidelines - i.e., 40-74 year-olds should obtain mammograms every 2 years.\n\nAim 2: Among 200 network members, the investigator will compare intervention effects on BC screening, based on the USPSTF guidelines.\n\nAim 3: The investigator will explore mechanisms of change underlying intervention effects on BC screening using IS measures, descriptive SNA, and structural equation models. If study arms are comparable, the investigator will examine which mechanisms may predict multilevel intervention effects across approaches.",
+        "site": [
+          {
+            "reference": "Location/nct05841355-site-1",
+            "type": "Location",
+            "display": "Mile Square Health Center"
+          },
+          {
+            "reference": "Location/nct05841355-site-2",
+            "type": "Location",
+            "display": "University of Illinois Health"
+          }
+        ],
+        "classifier": [
+          {
+            "coding": [
+              {
+                "system": "https://fevir.net/resources/CodeSystem/419455",
+                "code": "includes-healthy-volunteers",
+                "display": "Includes healthy volunteers"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "https://fevir.net/resources/CodeSystem/419455",
+                "code": "includes-females",
+                "display": "Includes female subjects"
+              }
+            ]
+          },
+          {
+            "text": "Minimum Age: 40 Years"
+          },
+          {
+            "text": "Maximum Age: 74 Years"
+          },
+          {
+            "coding": [
+              {
+                "system": "https://fevir.net/resources/CodeSystem/419455",
+                "code": "includes-ages-18-64",
+                "display": "Includes ages 18-64 years"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "https://fevir.net/resources/CodeSystem/419455",
+                "code": "includes-ages-65-and-older",
+                "display": "Includes ages 65 and older"
+              }
+            ]
+          },
+          {
+            "text": "IPDSharing: No"
+          },
+          {
+            "text": "IPDSharingDescription: IPD may be shared, based on correspondence between researchers. There will need to be safeguards in place to ensure privacy and confidentiality, given the nature of social network data."
+          },
+          {
+            "text": "Oversight Classifier: oversightHasDmc True"
+          },
+          {
+            "text": "Oversight Classifier: isFdaRegulatedDrug False"
+          },
+          {
+            "text": "Oversight Classifier: isFdaRegulatedDevice False"
+          }
+        ],
+        "associatedParty": [
+          {
+            "name": "University of Illinois at Chicago",
+            "role": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/research-study-party-role",
+                  "code": "lead-sponsor",
+                  "display": "lead-sponsor"
+                }
+              ]
+            },
+            "classifier": [
+              {
+                "text": "OTHER"
+              }
+            ]
+          },
+          {
+            "name": "Yamile Molina",
+            "role": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/research-study-party-role",
+                  "code": "sponsor-investigator",
+                  "display": "sponsor-investigator"
+                }
+              ]
+            },
+            "party": {
+              "reference": "PractitionerRole/NCT05841355-ResponsibleParty-0",
+              "type": "PractitionerRole"
+            }
+          }
+        ],
+        "progressStatus": [
+          {
+            "state": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/research-study-registration-activity",
+                  "code": "record-verification",
+                  "display": "Record Verification"
+                }
+              ]
+            },
+            "actual": true,
+            "period": {
+              "end": "2026-08-30"
+            }
+          },
+          {
+            "state": {
+              "text": "Overall study",
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/research-study-status",
+                  "code": "active",
+                  "display": "Active"
+                }
+              ]
+            },
+            "actual": true,
+            "period": {
+              "start": "2023-03-14"
+            }
+          },
+          {
+            "state": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/research-study-registration-activity",
+                  "code": "primary-outcome-data-collection",
+                  "display": "Primary outcome data collection"
+                }
+              ]
+            },
+            "actual": true,
+            "period": {
+              "end": "2026-09-30"
+            }
+          },
+          {
+            "state": {
+              "text": "Overall study",
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/research-study-status",
+                  "code": "active",
+                  "display": "Active"
+                }
+              ]
+            },
+            "actual": false,
+            "period": {
+              "end": "2027-08-31"
+            }
+          },
+          {
+            "state": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/research-study-registration-activity",
+                  "code": "registration-posting",
+                  "display": "Registration posting"
+                }
+              ]
+            },
+            "actual": true,
+            "period": {
+              "end": "2023-05-03"
+            }
+          },
+          {
+            "state": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/research-study-registration-activity",
+                  "code": "update-posting",
+                  "display": "Update posting"
+                }
+              ]
+            },
+            "actual": true,
+            "period": {
+              "end": "2026-08-20"
+            }
+          },
+          {
+            "state": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/research-study-registration-activity",
+                  "code": "registration-submission",
+                  "display": "Registration submission"
+                }
+              ]
+            },
+            "actual": true,
+            "period": {
+              "end": "2023-04-23"
+            }
+          },
+          {
+            "state": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/research-study-registration-activity",
+                  "code": "registration-submission-qc",
+                  "display": "Registration submission Quality Check"
+                }
+              ]
+            },
+            "actual": true,
+            "period": {
+              "end": "2023-04-23"
+            }
+          },
+          {
+            "state": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/research-study-registration-activity",
+                  "code": "update-submission",
+                  "display": "Update submission"
+                }
+              ]
+            },
+            "actual": true,
+            "period": {
+              "end": "2026-08-18"
+            }
+          }
+        ],
+        "recruitment": {
+          "targetNumber": 600,
+          "eligibility": {
+            "reference": "Group/nct05841355-eligibility-1",
+            "type": "Group",
+            "display": "USDM Eligibility Criteria for MADRE (Mammograms Available Due to Research and Education)"
+          }
+        },
+        "comparisonGroup": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-arm-eligibility",
+                "valueReference": {
+                  "reference": "Group/NCT05841355-comparison-group-0",
+                  "type": "Group",
+                  "display": "Educate (Education + Navigation) Sessions"
+                }
+              }
+            ],
+            "name": "Educate (Education + Navigation) Sessions",
+            "description": "Session 1 BC knowledge, BC disparities, USPSTF guidelines, barriers and preferred solutions to BC screening, Community Health Workers (CHW) testimonials, empirical data, individual action plans for BC screening Session 2 \\&3 Health knowledge (diet and physical activity guidelines), barriers and preferred solutions to dietary and physical activity change, CHW testimonials, empirical data, individual action plans for diet"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-arm-eligibility",
+                "valueReference": {
+                  "reference": "Group/NCT05841355-comparison-group-1",
+                  "type": "Group",
+                  "display": "Empower (Empowerment + Navigation) Sessions"
+                }
+              }
+            ],
+            "name": "Empower (Empowerment + Navigation) Sessions",
+            "description": "Session 1 BC knowledge, BC disparities, USPSTF guidelines, barriers and preferred solutions to BC screening CHW testimonials, Empirical data, Individual action plans for BC screening Sessions 2 \\& 3 BC screening as leading by example, BC promotion strategies that reflect personal and network members' preferences, opportunities to volunteer/be a part of tight-knit initiatives, partnerships with navigators/CHWs to serve as \"bridges\" for network members CHW testimonials , resource guides for BC promotion, individual action plans for promoting BC, role playing activities (session 2) Participant testimonials, participant relays empirical data, group discussion and plans for promoting BC (session 3)"
+          }
+        ],
+        "objective": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                  "code": "primary",
+                  "display": "Primary"
+                }
+              ]
+            },
+            "name": "Primary Objective"
+          }
+        ],
+        "outcomeMeasure": [
+          {
+            "name": "Endpoint_0abb8a74-a14c-11f1-a722-f224c0658ea4",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "primary",
+                    "display": "Primary"
+                  }
+                ]
+              }
+            ],
+            "description": "Breast Cancer (BC) Screening (Aim 1) [Time Frame: 1-4 years]"
+          },
+          {
+            "name": "Endpoint_0abb8fec-a14c-11f1-a737-f224c0658ea4",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "primary",
+                    "display": "Primary"
+                  }
+                ]
+              }
+            ],
+            "description": "Breast Cancer Screening (Aim 2) [Time Frame: 1-4 years]"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Group/nct05841355-eligibility-1",
+      "resource": {
+        "resourceType": "Group",
+        "id": "nct05841355-eligibility-1",
+        "modifierExtension": [
+          {
+            "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+            "valueCode": "all-of"
+          }
+        ],
+        "name": "USDM Eligibility Criteria for MADRE (Mammograms Available Due to Research and Education)",
+        "active": true,
+        "type": "person",
+        "membership": "definitional",
+        "description": "Aim 1\n\nInclusion Criteria:\n\n* female biological sex\n* identification as Latinas\n* non-adherence to USPSTF guidelines (42-74 years old, no mammogram in past 2 years, no previous BC diagnosis)\n* no previous history of health volunteerism\n* not a network member enrolled in Aim 2.\n\nExclusion Criteria\n\n\\* Not meeting at least one of the aforementioned Aim 1 inclusion criteria.\n\nAim 2.\n\nInclusion Criteria:\n\n* female biological sex\n* eligibility to obtain BC screenings by USPSTF guidelines (i.e., 40-74 years old, no personal BC history)\n* referral from Aim 1 participants\n* no previous history of health volunteerism\n* no participation in the RCT (not an Aim 1 participant, no Session #3 attendance).\n\nExclusion Criteria:\n\n* Not meeting at least one of the aforementioned Aim 1 inclusion criteria."
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Group/NCT05841355-comparison-group-0",
+      "resource": {
+        "resourceType": "Group",
+        "id": "NCT05841355-comparison-group-0",
+        "name": "Educate (Education + Navigation) Sessions",
+        "active": true,
+        "type": "person",
+        "membership": "definitional",
+        "code": {
+          "text": "Other"
+        },
+        "description": "Session 1 BC knowledge, BC disparities, USPSTF guidelines, barriers and preferred solutions to BC screening, Community Health Workers (CHW) testimonials, empirical data, individual action plans for BC screening Session 2 \\&3 Health knowledge (diet and physical activity guidelines), barriers and preferred solutions to dietary and physical activity change, CHW testimonials, empirical data, individual action plans for diet"
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Group/NCT05841355-comparison-group-1",
+      "resource": {
+        "resourceType": "Group",
+        "id": "NCT05841355-comparison-group-1",
+        "name": "Empower (Empowerment + Navigation) Sessions",
+        "active": true,
+        "type": "person",
+        "membership": "definitional",
+        "code": {
+          "text": "Other"
+        },
+        "description": "Session 1 BC knowledge, BC disparities, USPSTF guidelines, barriers and preferred solutions to BC screening CHW testimonials, Empirical data, Individual action plans for BC screening Sessions 2 \\& 3 BC screening as leading by example, BC promotion strategies that reflect personal and network members' preferences, opportunities to volunteer/be a part of tight-knit initiatives, partnerships with navigators/CHWs to serve as \"bridges\" for network members CHW testimonials , resource guides for BC promotion, individual action plans for promoting BC, role playing activities (session 2) Participant testimonials, participant relays empirical data, group discussion and plans for promoting BC (session 3)"
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/PractitionerRole/NCT05841355-ResponsibleParty-0",
+      "resource": {
+        "id": "NCT05841355-ResponsibleParty-0",
+        "resourceType": "PractitionerRole",
+        "code": [
+          {
+            "text": "Principal Investigator"
+          }
+        ],
+        "organization": {
+          "display": "University of Illinois at Chicago"
+        },
+        "practitioner": {
+          "display": "Yamile Molina"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/EvidenceVariable/nct05841355-evidencevariable-1",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct05841355-evidencevariable-1",
+        "name": "Nct05841355_evidencevariable_1",
+        "title": "Educate",
+        "status": "active",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Educate"
+            }
+          }
+        ],
+        "handling": "dichotomous",
+        "category": [
+          {
+            "name": "Intervention Type",
+            "valueCodeableConcept": {
+              "text": "OTHER"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/EvidenceVariable/nct05841355-evidencevariable-2",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct05841355-evidencevariable-2",
+        "name": "Nct05841355_evidencevariable_2",
+        "title": "Empower",
+        "status": "active",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Empower"
+            }
+          }
+        ],
+        "handling": "dichotomous",
+        "category": [
+          {
+            "name": "Intervention Type",
+            "valueCodeableConcept": {
+              "text": "OTHER"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct05841355-site-1",
+      "resource": {
+        "id": "nct05841355-site-1",
+        "resourceType": "Location",
+        "name": "Mile Square Health Center",
+        "address": {
+          "city": "Chicago",
+          "state": "Illinois",
+          "country": "United States",
+          "postalCode": "60612"
+        },
+        "position": {
+          "latitude": 41.85003,
+          "longitude": -87.65005
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct05841355-site-2",
+      "resource": {
+        "id": "nct05841355-site-2",
+        "resourceType": "Location",
+        "name": "University of Illinois Health",
+        "address": {
+          "city": "Chicago",
+          "state": "Illinois",
+          "country": "United States",
+          "postalCode": "60612"
+        },
+        "position": {
+          "latitude": 41.85003,
+          "longitude": -87.65005
+        }
+      }
+    }
+  ],
+  "meta": {
+    "lastUpdated": "2026-11-12T06:54:46Z"
+  }
+}

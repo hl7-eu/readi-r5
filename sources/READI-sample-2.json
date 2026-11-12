@@ -1,0 +1,3635 @@
+{
+  "id": "nct04077723-bundle-1",
+  "type": "collection",
+  "resourceType": "Bundle",
+  "entry": [
+    {
+      "fullUrl": "https://example.org/resources/ResearchStudy/nct04077723-researchstudy-1",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "nct04077723-researchstudy-1",
+        "meta": {
+          "lastUpdated": "2026-11-12T06:55:20Z"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/artifact-useContext",
+            "valueUsageContext": {
+              "code": {
+                "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+                "code": "age",
+                "display": "Age Range"
+              },
+              "valueRange": {
+                "low": {
+                  "value": 18,
+                  "unit": "Year"
+                },
+                "high": {
+                  "value": 120,
+                  "unit": "Year"
+                }
+              }
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+            "extension": [
+              {
+                "url": "activity",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-submission",
+                      "display": "Registration submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2019-08-09"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+            "extension": [
+              {
+                "url": "activity",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-submission-qc",
+                      "display": "Registration submission Quality Check"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2019-09-03"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+            "extension": [
+              {
+                "url": "activity",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-posting",
+                      "display": "Registration posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2019-09-04"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+            "extension": [
+              {
+                "url": "activity",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "update-submission",
+                      "display": "Update submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2026-08-26"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+            "extension": [
+              {
+                "url": "activity",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "update-posting",
+                      "display": "Update posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2026-08-27"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+            "extension": [
+              {
+                "url": "activity",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "record-verification",
+                      "display": "Record Verification"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2026-08-30"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+            "extension": [
+              {
+                "url": "activity",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "primary-outcome-data-collection",
+                      "display": "Primary outcome data collection"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": false
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2027-03-31"
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "value": "NCT04077723",
+            "system": "http://terminology.hl7.org/NamingSystem/ClinicalTrials-Gov",
+            "assigner": {
+              "display": "ClinicalTrials.gov"
+            },
+            "type": {
+              "text": "study identifier"
+            }
+          },
+          {
+            "use": "official",
+            "value": "BP41072",
+            "assigner": {
+              "display": "Hoffmann-La Roche"
+            }
+          }
+        ],
+        "name": "NCT04077723 FHIR Transform",
+        "title": "An Open-Label, Phase I/II Study to Evaluate the Safety, Pharmacokinetics and Preliminary Anti-Tumor Activity of Englumafusp Alfa (RO7227166, A CD19 Targeted 4-1BB Ligand) in Combination With Obinutuzumab and in Combination With Glofitamab Following a Pre-treatment Dose of Obinutuzumab Administered in Participants With Relapsed/Refractory B-Cell Non-Hodgkin's Lymphoma",
+        "label": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/title-type",
+                  "code": "official",
+                  "display": "Official title"
+                }
+              ]
+            },
+            "value": "An Open-Label, Phase I/II Study to Evaluate the Safety, Pharmacokinetics and Preliminary Anti-Tumor Activity of Englumafusp Alfa (RO7227166, A CD19 Targeted 4-1BB Ligand) in Combination With Obinutuzumab and in Combination With Glofitamab Following a Pre-treatment Dose of Obinutuzumab Administered in Participants With Relapsed/Refractory B-Cell Non-Hodgkin's Lymphoma"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/title-type",
+                  "code": "short-title",
+                  "display": "Short title"
+                }
+              ]
+            },
+            "value": "A Study to Evaluate the Safety, Pharmacokinetics and Preliminary Anti-Tumor Activity of Englumafusp Alfa in Combination With Obinutuzumab and in Combination With Glofitamab Following a Pre-Treatment Dose of Obinutuzumab in Participants With Relapsed/Refractory B-Cell Non-Hodgkin's Lymphoma"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/title-type",
+                  "code": "plain-language",
+                  "display": "Plain language title"
+                }
+              ]
+            },
+            "value": "A Study to Evaluate the Safety, Pharmacokinetics and Preliminary Anti-Tumor Activity of Englumafusp Alfa in Combination With Obinutuzumab and in Combination With Glofitamab Following a Pre-Treatment Dose of Obinutuzumab in Participants With Relapsed/Refractory B-Cell Non-Hodgkin's Lymphoma"
+          }
+        ],
+        "status": "active",
+        "primaryPurposeType": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-prim-purp-type",
+              "code": "treatment",
+              "display": "Treatment"
+            }
+          ]
+        },
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "phase-2",
+              "display": "Phase 2"
+            }
+          ],
+          "text": "Phase 2"
+        },
+        "studyDesign": [
+          {
+            "coding": [
+              {
+                "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+                "code": "C98388",
+                "display": "Interventional Study"
+              },
+              {
+                "system": "http://hl7.org/fhir/study-design",
+                "code": "SEVCO:01001",
+                "display": "interventional research"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/study-design",
+                "code": "SEVCO:01003",
+                "display": "randomized assignment"
+              }
+            ]
+          },
+          {
+            "text": "Design Masking: NONE (Open Label)"
+          }
+        ],
+        "condition": [
+          {
+            "text": "Lymphoma, Non-Hodgkin",
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/MSH",
+                "code": "D008228",
+                "display": "Lymphoma, Non-Hodgkin"
+              }
+            ]
+          },
+          {
+            "text": "Onychomycosis",
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "414941008",
+                "display": "Onychomycosis"
+              }
+            ]
+          },
+          {
+            "text": "Infectious disease",
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "40733004",
+                "display": "Infectious disease"
+              }
+            ]
+          },
+          {
+            "text": "Mycosis",
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "3218000",
+                "display": "Mycosis"
+              }
+            ]
+          },
+          {
+            "text": "Viral disease",
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "34014006",
+                "display": "Viral disease"
+              }
+            ]
+          },
+          {
+            "text": "Mycobacterial infection (excluding tuberculosis AND leprosy)",
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "111811007",
+                "display": "Mycobacterial infection (excluding tuberculosis AND leprosy)"
+              }
+            ]
+          },
+          {
+            "text": "Bacterial infectious disease",
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "87628006",
+                "display": "Bacterial infectious disease"
+              }
+            ]
+          }
+        ],
+        "descriptionSummary": "This is a phase I/II, open-label, dose-escalation study designed to evaluate the safety, tolerability, and efficacy of englumafusp alfa (RO7227166) in participants with relapsed/refractory Non-Hodgkin's Lymphoma (r/r NHL). Englumafusp alfa will be administered by intravenous (IV) infusion in combination with obinutuzumab and in combination with glofitamab. A fixed dose of obinutuzumab (Gpt; pre-treatment) will be administered up to seven days prior to the first administration of englumafusp alfa and seven days prior to the first administration of glofitamab. This entry-into-human study is divided into a dose-escalation stage (Part I and Part II) and a dose expansion stage (Part III).",
+        "description": "This is a phase I/II, open-label, dose-escalation study designed to evaluate the safety, tolerability, and efficacy of englumafusp alfa (RO7227166) in participants with relapsed/refractory Non-Hodgkin's Lymphoma (r/r NHL). Englumafusp alfa will be administered by intravenous (IV) infusion in combination with obinutuzumab and in combination with glofitamab. A fixed dose of obinutuzumab (Gpt; pre-treatment) will be administered up to seven days prior to the first administration of englumafusp alfa and seven days prior to the first administration of glofitamab. This entry-into-human study is divided into a dose-escalation stage (Part I and Part II) and a dose expansion stage (Part III).",
+        "site": [
+          {
+            "reference": "Location/nct04077723-site-1",
+            "type": "Location",
+            "display": "City of Hope Medical Center"
+          },
+          {
+            "reference": "Location/nct04077723-site-2",
+            "type": "Location",
+            "display": "University of California San Francisco"
+          },
+          {
+            "reference": "Location/nct04077723-site-3",
+            "type": "Location",
+            "display": "Washington University School of Medicine"
+          },
+          {
+            "reference": "Location/nct04077723-site-4",
+            "type": "Location",
+            "display": "The University of Texas MD Anderson Cancer Center"
+          },
+          {
+            "reference": "Location/nct04077723-site-5",
+            "type": "Location",
+            "display": "Peter Maccallum Cancer Centre"
+          },
+          {
+            "reference": "Location/nct04077723-site-6",
+            "type": "Location",
+            "display": "The Alfred Hospital"
+          },
+          {
+            "reference": "Location/nct04077723-site-7",
+            "type": "Location",
+            "display": "UZ Gent"
+          },
+          {
+            "reference": "Location/nct04077723-site-8",
+            "type": "Location",
+            "display": "Queen Elizabeth II Health Sciences Centre"
+          },
+          {
+            "reference": "Location/nct04077723-site-9",
+            "type": "Location",
+            "display": "Jewish General Hospital"
+          },
+          {
+            "reference": "Location/nct04077723-site-10",
+            "type": "Location",
+            "display": "Beijing Cancer Hospital"
+          },
+          {
+            "reference": "Location/nct04077723-site-11",
+            "type": "Location",
+            "display": "Shandong Cancer Hospital"
+          },
+          {
+            "reference": "Location/nct04077723-site-12",
+            "type": "Location",
+            "display": "Fudan University Shanghai Cancer Center"
+          },
+          {
+            "reference": "Location/nct04077723-site-13",
+            "type": "Location",
+            "display": "The First Affiliated Hospital of Xiamen University"
+          },
+          {
+            "reference": "Location/nct04077723-site-14",
+            "type": "Location",
+            "display": "Aarhus Universitetshospital Skejby"
+          },
+          {
+            "reference": "Location/nct04077723-site-15",
+            "type": "Location",
+            "display": "Rigshospitalet"
+          },
+          {
+            "reference": "Location/nct04077723-site-16",
+            "type": "Location",
+            "display": "Odense Universitetshospital"
+          },
+          {
+            "reference": "Location/nct04077723-site-17",
+            "type": "Location",
+            "display": "CHRU de Lille"
+          },
+          {
+            "reference": "Location/nct04077723-site-18",
+            "type": "Location",
+            "display": "CHU Montpellier - Saint ELOI"
+          },
+          {
+            "reference": "Location/nct04077723-site-19",
+            "type": "Location",
+            "display": "Centre Hospitalier Lyon Sud"
+          },
+          {
+            "reference": "Location/nct04077723-site-20",
+            "type": "Location",
+            "display": "CHU DE RENNES - CHU Pontchaillou"
+          },
+          {
+            "reference": "Location/nct04077723-site-21",
+            "type": "Location",
+            "display": "Istituto Nazionale Tumori Irccs Fondazione g. Pascale"
+          },
+          {
+            "reference": "Location/nct04077723-site-22",
+            "type": "Location",
+            "display": "Asst Papa Giovanni Xxiii"
+          },
+          {
+            "reference": "Location/nct04077723-site-23",
+            "type": "Location",
+            "display": "Irccs Istituto Europeo Di Oncologia (IEO)"
+          },
+          {
+            "reference": "Location/nct04077723-site-24",
+            "type": "Location",
+            "display": "Istituto Clinico Humanitas"
+          },
+          {
+            "reference": "Location/nct04077723-site-25",
+            "type": "Location",
+            "display": "Auckland City Hospital, Cancer and Blood Research"
+          },
+          {
+            "reference": "Location/nct04077723-site-26",
+            "type": "Location",
+            "display": "Waikato Hospital - Cancer and Blood Research Trials Unit"
+          },
+          {
+            "reference": "Location/nct04077723-site-27",
+            "type": "Location",
+            "display": "Pusan National University Hospital"
+          },
+          {
+            "reference": "Location/nct04077723-site-28",
+            "type": "Location",
+            "display": "Seoul National University Hospital"
+          },
+          {
+            "reference": "Location/nct04077723-site-29",
+            "type": "Location",
+            "display": "Asan Medical Center"
+          },
+          {
+            "reference": "Location/nct04077723-site-30",
+            "type": "Location",
+            "display": "Samsung Medical Center"
+          },
+          {
+            "reference": "Location/nct04077723-site-31",
+            "type": "Location",
+            "display": "Hospital Universitari Vall d'Hebron"
+          },
+          {
+            "reference": "Location/nct04077723-site-32",
+            "type": "Location",
+            "display": "Hospital Univ. 12 de Octubre"
+          },
+          {
+            "reference": "Location/nct04077723-site-33",
+            "type": "Location",
+            "display": "Hospital Clinico Universitario Virgen de la Victoria"
+          },
+          {
+            "reference": "Location/nct04077723-site-34",
+            "type": "Location",
+            "display": "The HOPE Clinical Trials Unit"
+          },
+          {
+            "reference": "Location/nct04077723-site-35",
+            "type": "Location",
+            "display": "University College London Hospitals NHS Foundation Trust"
+          }
+        ],
+        "classifier": [
+          {
+            "coding": [
+              {
+                "system": "https://fevir.net/resources/CodeSystem/419455",
+                "code": "does-not-include-healthy-volunteers",
+                "display": "Does not include healthy volunteers"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "https://fevir.net/resources/CodeSystem/419455",
+                "code": "includes-females",
+                "display": "Includes female subjects"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "https://fevir.net/resources/CodeSystem/419455",
+                "code": "includes-males",
+                "display": "Includes male subjects"
+              }
+            ]
+          },
+          {
+            "text": "Minimum Age: 18 Years"
+          },
+          {
+            "text": "IPDSharing: Yes"
+          },
+          {
+            "text": "IPDSharingDescription: For eligible studies, qualified researchers may request access to individual patient level clinical data. See Roche's commitment to transparency of clinical study information here: https://go.roche.com/data\\_sharing"
+          },
+          {
+            "text": "Oversight Classifier: isFdaRegulatedDrug True"
+          },
+          {
+            "text": "Oversight Classifier: isFdaRegulatedDevice False"
+          }
+        ],
+        "associatedParty": [
+          {
+            "name": "Hoffmann-La Roche",
+            "role": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/research-study-party-role",
+                  "code": "lead-sponsor",
+                  "display": "lead-sponsor"
+                }
+              ]
+            },
+            "classifier": [
+              {
+                "text": "INDUSTRY",
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/research-study-party-organization-type",
+                    "code": "industry",
+                    "display": "Industry"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Clinical Trials",
+            "role": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/research-study-party-role",
+                  "code": "study-chair",
+                  "display": "study-chair"
+                }
+              ]
+            },
+            "party": {
+              "display": "Hoffmann-La Roche"
+            }
+          }
+        ],
+        "progressStatus": [
+          {
+            "state": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/research-study-registration-activity",
+                  "code": "record-verification",
+                  "display": "Record Verification"
+                }
+              ]
+            },
+            "actual": true,
+            "period": {
+              "end": "2026-08-30"
+            }
+          },
+          {
+            "state": {
+              "text": "Overall study",
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/research-study-status",
+                  "code": "active",
+                  "display": "Active"
+                }
+              ]
+            },
+            "actual": true,
+            "period": {
+              "start": "2019-08-13"
+            }
+          },
+          {
+            "state": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/research-study-registration-activity",
+                  "code": "primary-outcome-data-collection",
+                  "display": "Primary outcome data collection"
+                }
+              ]
+            },
+            "actual": false,
+            "period": {
+              "end": "2027-03-31"
+            }
+          },
+          {
+            "state": {
+              "text": "Overall study",
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/research-study-status",
+                  "code": "active",
+                  "display": "Active"
+                }
+              ]
+            },
+            "actual": false,
+            "period": {
+              "end": "2027-03-31"
+            }
+          },
+          {
+            "state": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/research-study-registration-activity",
+                  "code": "registration-posting",
+                  "display": "Registration posting"
+                }
+              ]
+            },
+            "actual": true,
+            "period": {
+              "end": "2019-09-04"
+            }
+          },
+          {
+            "state": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/research-study-registration-activity",
+                  "code": "update-posting",
+                  "display": "Update posting"
+                }
+              ]
+            },
+            "actual": true,
+            "period": {
+              "end": "2026-08-27"
+            }
+          },
+          {
+            "state": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/research-study-registration-activity",
+                  "code": "registration-submission",
+                  "display": "Registration submission"
+                }
+              ]
+            },
+            "actual": true,
+            "period": {
+              "end": "2019-08-09"
+            }
+          },
+          {
+            "state": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/research-study-registration-activity",
+                  "code": "registration-submission-qc",
+                  "display": "Registration submission Quality Check"
+                }
+              ]
+            },
+            "actual": true,
+            "period": {
+              "end": "2019-09-03"
+            }
+          },
+          {
+            "state": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/research-study-registration-activity",
+                  "code": "update-submission",
+                  "display": "Update submission"
+                }
+              ]
+            },
+            "actual": true,
+            "period": {
+              "end": "2026-08-26"
+            }
+          }
+        ],
+        "recruitment": {
+          "targetNumber": 498,
+          "eligibility": {
+            "reference": "Group/nct04077723-eligibility-1",
+            "type": "Group",
+            "display": "USDM Eligibility Criteria for An Open-Label, Phase I/II Study to Evaluate the Safety, Pharmacokinetics and Preliminary Anti-Tumor Activity of Englumafusp Alfa (RO7227166, A CD19 Targeted 4-1BB Ligand) in Combination With Obinutuzumab and in Combination With Glofitamab Following a Pre-treatment Dose of Obinutuzumab Administered in Participants With Relapsed/Refractory B-Cell Non-Hodgkin's Lymphoma"
+          }
+        },
+        "comparisonGroup": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-arm-eligibility",
+                "valueReference": {
+                  "reference": "Group/NCT04077723-comparison-group-0",
+                  "type": "Group",
+                  "display": "Part I"
+                }
+              }
+            ],
+            "name": "Part I",
+            "description": "Combination Dose-Escalation: Mixed r/r NHL participants will receive a fixed dose of obinutuzumab up to seven days prior to first administration of englumafusp alfa. Englumafusp alfa will be administered by intravenous (IV) infusion in combination with obinutuzumab in a three-weekly schedule (Q3W)."
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-arm-eligibility",
+                "valueReference": {
+                  "reference": "Group/NCT04077723-comparison-group-1",
+                  "type": "Group",
+                  "display": "Part II"
+                }
+              }
+            ],
+            "name": "Part II",
+            "description": "Combination Dose-Escalation: Mixed r/r participants and participants with mixed r/r mantle cell lymphoma (MCL) and Richters transformation will receive a fixed dose of obinutuzumab seven days prior to first administration of englumafusp alfa. Englumafusp alfa will be administered by IV infusion in combination with glofitamab in a three-weekly schedule (Q3W)."
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-arm-eligibility",
+                "valueReference": {
+                  "reference": "Group/NCT04077723-comparison-group-2",
+                  "type": "Group",
+                  "display": "Part III"
+                }
+              }
+            ],
+            "name": "Part III",
+            "description": "Dose-Expansion Stage: Participants with r/r diffuse large B-cell lymphoma not otherwise specified (DLBCL NOS), high-grade B-cell lymphoma (HGBCL), primary mediastinal B-cell lymphoma (PMBCL), and DLBCL arising from FL (transformed FL) will receive englumafusp alfa administered by IV infusion in combination with glofitamab in a three-weekly schedule (Q3W)."
+          }
+        ],
+        "objective": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                  "code": "primary",
+                  "display": "Primary"
+                }
+              ]
+            },
+            "name": "Primary Objective"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                  "code": "secondary",
+                  "display": "Secondary"
+                }
+              ]
+            },
+            "name": "Secondary Objective"
+          }
+        ],
+        "outcomeMeasure": [
+          {
+            "name": "Endpoint_89c537d6-7062-11f1-82e0-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "primary",
+                    "display": "Primary"
+                  }
+                ]
+              }
+            ],
+            "description": "Nature and frequency of dose-limiting toxicities (DLTs) [Time Frame: 28 days in Part I and Part II]"
+          },
+          {
+            "name": "Endpoint_89c54e56-7062-11f1-ab6c-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "primary",
+                    "display": "Primary"
+                  }
+                ]
+              }
+            ],
+            "description": "Proportion of Participants with Adverse Event (AE) [Time Frame: After end of Study approximately every 3 months until death, loss to follow-up or study termination]"
+          },
+          {
+            "name": "Endpoint_89c554be-7062-11f1-bed1-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "primary",
+                    "display": "Primary"
+                  }
+                ]
+              }
+            ],
+            "description": "Overall Response Rate (ORR) [Time Frame: Part I: Up to 24 months; Part II: Up to 18 months; Part III: Up to 9 months or up to 18 months]"
+          },
+          {
+            "name": "Endpoint_89c55978-7062-11f1-95cb-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "primary",
+                    "display": "Primary"
+                  }
+                ]
+              }
+            ],
+            "description": "Disease Control Rate (DCR) [Time Frame: Part I: Up to 24 months; Part II: Up to 18 months; Part III: Up to 9 months or up to 18 months]"
+          },
+          {
+            "name": "Endpoint_89c55df6-7062-11f1-a767-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "primary",
+                    "display": "Primary"
+                  }
+                ]
+              }
+            ],
+            "description": "Duration of Response (DOR) [Time Frame: After end of Study approximately every 3 months until death, loss to follow-up or study termination]"
+          },
+          {
+            "name": "Endpoint_89c56256-7062-11f1-b967-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "primary",
+                    "display": "Primary"
+                  }
+                ]
+              }
+            ],
+            "description": "Progression-free Survival (PFS) [Time Frame: After end of Study approximately every 3 months until death, loss to follow-up or study termination]"
+          },
+          {
+            "name": "Endpoint_89c5676a-7062-11f1-b865-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "primary",
+                    "display": "Primary"
+                  }
+                ]
+              }
+            ],
+            "description": "Overall Survival (OS) [Time Frame: After end of Study approximately every 3 months until death, loss to follow-up or study termination]"
+          },
+          {
+            "name": "Endpoint_89c56c10-7062-11f1-952a-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "primary",
+                    "display": "Primary"
+                  }
+                ]
+              }
+            ],
+            "description": "Complete Response (CR) [Time Frame: Part III: Up to 9 months or up to 18 months]"
+          },
+          {
+            "name": "Endpoint_89c570b6-7062-11f1-9dab-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "Total exposure (area under the concentration time curve [AUC]) of englumafusp alfa in combination with obinutuzumab and glofitamab [Time Frame: Part I: Up to 24 months; Part II: Up to 18 months; Part III: Up to 9 months or up to 18 months]"
+          },
+          {
+            "name": "Endpoint_89c57502-7062-11f1-b0c8-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "Maximum serum concentration (peak concentration, Cmax) of englumafusp alfa in combination with obinutuzumab and glofitamab [Time Frame: Part I: Up to 24 months; Part II: Up to 18 months; Part III: Up to 9 months or up to 18 months]"
+          },
+          {
+            "name": "Endpoint_89c5793a-7062-11f1-a8ee-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "Minimum serum concentration (trough concentration, Cmin) of englumafusp alfa in combination with obinutuzumab and glofitamab [Time Frame: Part I: Up to 24 months; Part II: Up to 18 months; Part III: Up to 9 months or up to 18 months]"
+          },
+          {
+            "name": "Endpoint_89c57d72-7062-11f1-bc64-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "Clearance (CL) of englumafusp alfa in combination with obinutuzumab and glofitamab [Time Frame: Part I: Up to 24 months; Part II: Up to 18 months; Part III: Up to 9 months or up to 18 months]"
+          },
+          {
+            "name": "Endpoint_89c581dc-7062-11f1-a283-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "Volume of distribution of steady state (Vss) and half-life (t1/2) of englumafusp alfa in combination with obinutuzumab and glofitamab [Time Frame: Part I: Up to 24 months; Part II: Up to 18 months; Part III: Up to 9 months or up to 18 months]"
+          },
+          {
+            "name": "Endpoint_89c586e6-7062-11f1-a6a7-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "ORR [Time Frame: Part I: Up to 24 months; Part II: Up to 18 months; Part III: Up to 9 months or up to 18 months]"
+          },
+          {
+            "name": "Endpoint_89c58b1e-7062-11f1-960a-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "DCR [Time Frame: Part I: Up to 24 months; Part II: Up to 18 months; Part III: Up to 9 months or up to 18 months]"
+          },
+          {
+            "name": "Endpoint_89c59078-7062-11f1-9cd5-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "DOR [Time Frame: After end of Study approximately every 3 months until death, loss to follow-up or study termination]"
+          },
+          {
+            "name": "Endpoint_89c594c4-7062-11f1-ba80-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "PFS [Time Frame: After end of Study approximately every 3 months until death, loss to follow-up or study termination]"
+          },
+          {
+            "name": "Endpoint_89c59906-7062-11f1-9f3c-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "OS [Time Frame: After end of Study approximately every 3 months until death, loss to follow-up or study termination]"
+          },
+          {
+            "name": "Endpoint_89c59d5c-7062-11f1-8a83-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "Total exposure (area under the concentration time curve [AUC]) of englumafusp alfa in combination with glofitamab [Time Frame: Part III: Up to 9 months or up to 18 months]"
+          },
+          {
+            "name": "Endpoint_89c5a1da-7062-11f1-91b9-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "Maximum serum concentration (peak concentration, Cmax) of englumafusp alfa in combination with glofitamab [Time Frame: Part III: Up to 9 months or up to 18 months]"
+          },
+          {
+            "name": "Endpoint_89c5a612-7062-11f1-9710-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "Minimum serum concentration (trough concentration, Cmin) of englumafusp alfa in combination with glofitamab [Time Frame: Part III: Up to 9 months or up to 18 months]"
+          },
+          {
+            "name": "Endpoint_89c5aa40-7062-11f1-9cf2-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "Clearance (CL) of englumafusp alfa in combination with glofitamab [Time Frame: Part III: Up to 9 months or up to 18 months]"
+          },
+          {
+            "name": "Endpoint_89c5ae78-7062-11f1-90e5-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "Volume of distribution of steady state (Vss) and half-life (t1/2) of englumafusp alfa in combination with glofitamab Part I/II/III [Time Frame: Part III: Up to 9 months or up to 18 months]"
+          },
+          {
+            "name": "Endpoint_89c5b2f6-7062-11f1-b183-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "T-cell and Natural killer (NK)-cell status in blood, using markers of T and NK-cell lineage, function and activation including, but not limited to, CD3, CD8, 41BB, and Ki67 expression [Time Frame: Part I: Up to 24 months; Part II: Up to 18 months; Part III: Up to 9 months or up to 18 months]"
+          },
+          {
+            "name": "Endpoint_89c5b904-7062-11f1-9925-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "B-cell reduction in blood and tumor tissue [Time Frame: Part I: Up to 24 months; Part II: Up to 18 months; Part III: Up to 9 months or up to 18 months]"
+          },
+          {
+            "name": "Endpoint_89c5bd46-7062-11f1-a8a9-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "Change from Baseline in englumafusp alfa Anti-Drug Antibody (ADA) Titer [Time Frame: Part 1: Up to 24 months; Part ll/lll: Up to 18 months]"
+          },
+          {
+            "name": "Endpoint_89c5c1b0-7062-11f1-934a-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "Time to First Complete Response (TFCR) [Time Frame: Up to 18 months]"
+          },
+          {
+            "name": "Endpoint_89c5c5e8-7062-11f1-a553-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "Time to First Overall Response (TFOR) [Time Frame: Up to 18 months]"
+          },
+          {
+            "name": "Endpoint_89c5ca0c-7062-11f1-9fc0-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "Duration of Complete Response (DOCR) [Time Frame: Part III: Up to 9 months or up to 18 months]"
+          },
+          {
+            "name": "Endpoint_89c5ce76-7062-11f1-83ad-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "Change from Baseline in Physical Function, Role Function, and Health-Related Quality of Life (HRQoL) Based on the European Organization for Research and Treatment of Cancer Quality of Life Questionnaire Core 30 (EORTC QLQ-C30) [Time Frame: Part III: Up to 9 months or up to 18 months]"
+          },
+          {
+            "name": "Endpoint_89c5d33a-7062-11f1-b85a-025cceb6f5ab",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "Change from Baseline in Physical Function, Role Function, and HRQoL According to the Functional Assessment of Cancer Therapy-Lymphoma (FACT-Lym) Lymphoma Scale [Time Frame: Part III: Up to 9 months or up to 18 months]"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Group/nct04077723-eligibility-1",
+      "resource": {
+        "resourceType": "Group",
+        "id": "nct04077723-eligibility-1",
+        "contained": [
+          {
+            "resourceType": "Group",
+            "id": "nct04077723-exprespnode-1",
+            "modifierExtension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+                "valueCode": "any-of"
+              }
+            ],
+            "name": "ConceptualCohortDefinition: Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, myc...",
+            "type": "person",
+            "membership": "definitional",
+            "description": "Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, mycobacterial, or other pathogens (excluding fungal infections of nail beds) or any major episode of infection requiring hospitalization or treatment with IV antibiotics",
+            "characteristic": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "71388002",
+                      "display": "Procedure (procedure)"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "737481003",
+                      "display": "Inpatient care management"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime",
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "requiring hospitalization"
+                  }
+                ],
+                "exclude": true
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "71388002",
+                      "display": "Procedure (procedure)"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "281790008",
+                      "display": "Intravenous antibiotic therapy"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime",
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "treatment with IV antibiotics"
+                  }
+                ],
+                "exclude": true
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "nct04077723-exprespnode-2",
+            "modifierExtension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+                "valueCode": "any-of"
+              }
+            ],
+            "name": "ConceptualCohortDefinition: Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, myc...",
+            "type": "person",
+            "membership": "definitional",
+            "description": "Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, mycobacterial, or other pathogens (excluding fungal infections of nail beds) or any major episode of infection requiring hospitalization or treatment with IV antibiotics",
+            "characteristic": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "75323-6",
+                      "display": "Condition"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "111811007",
+                      "display": "Mycobacterial infection (excluding tuberculosis AND leprosy)"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime",
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "mycobacterial"
+                  }
+                ],
+                "exclude": true
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "75323-6",
+                      "display": "Condition"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "414941008",
+                      "display": "Onychomycosis"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime",
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "excluding fungal infections of nail beds"
+                  }
+                ],
+                "exclude": true
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "nct04077723-exprespnode-3",
+            "modifierExtension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+                "valueCode": "any-of"
+              }
+            ],
+            "name": "ConceptualCohortDefinition: Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, myc...",
+            "type": "person",
+            "membership": "definitional",
+            "description": "Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, mycobacterial, or other pathogens (excluding fungal infections of nail beds) or any major episode of infection requiring hospitalization or treatment with IV antibiotics",
+            "characteristic": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "75323-6",
+                      "display": "Condition"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "40733004",
+                      "display": "Infectious disease"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime",
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "any major episode of infection"
+                  }
+                ],
+                "exclude": true
+              },
+              {
+                "code": {
+                  "text": "Defined by Reference"
+                },
+                "valueReference": {
+                  "reference": "#nct04077723-exprespnode-2",
+                  "type": "Group",
+                  "display": "ConceptualCohortDefinition: Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, myc..."
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, mycobacterial, or other pathogens (excluding fungal infections of nail beds) or any major episode of infection requiring hospitalization or treatment with IV antibiotics"
+                  }
+                ],
+                "exclude": true
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "nct04077723-exprespnode-4",
+            "modifierExtension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+                "valueCode": "all-of"
+              }
+            ],
+            "name": "ConceptualCohortDefinition: Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, myc...",
+            "type": "person",
+            "membership": "definitional",
+            "description": "Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, mycobacterial, or other pathogens (excluding fungal infections of nail beds) or any major episode of infection requiring hospitalization or treatment with IV antibiotics",
+            "characteristic": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "75323-6",
+                      "display": "Condition"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "3218000",
+                      "display": "Mycosis"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime",
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "fungal"
+                  }
+                ],
+                "exclude": true
+              },
+              {
+                "code": {
+                  "text": "Defined by Reference"
+                },
+                "valueReference": {
+                  "reference": "#nct04077723-exprespnode-3",
+                  "type": "Group",
+                  "display": "ConceptualCohortDefinition: Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, myc..."
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, mycobacterial, or other pathogens (excluding fungal infections of nail beds) or any major episode of infection requiring hospitalization or treatment with IV antibiotics"
+                  }
+                ],
+                "exclude": true
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "nct04077723-exprespnode-5",
+            "modifierExtension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+                "valueCode": "all-of"
+              }
+            ],
+            "name": "ConceptualCohortDefinition: Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, myc...",
+            "type": "person",
+            "membership": "definitional",
+            "description": "Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, mycobacterial, or other pathogens (excluding fungal infections of nail beds) or any major episode of infection requiring hospitalization or treatment with IV antibiotics",
+            "characteristic": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "75323-6",
+                      "display": "Condition"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "34014006",
+                      "display": "Viral disease"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime",
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "viral"
+                  }
+                ],
+                "exclude": true
+              },
+              {
+                "code": {
+                  "text": "Defined by Reference"
+                },
+                "valueReference": {
+                  "reference": "#nct04077723-exprespnode-4",
+                  "type": "Group",
+                  "display": "ConceptualCohortDefinition: Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, myc..."
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, mycobacterial, or other pathogens (excluding fungal infections of nail beds) or any major episode of infection requiring hospitalization or treatment with IV antibiotics"
+                  }
+                ],
+                "exclude": true
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "nct04077723-exprespnode-6",
+            "modifierExtension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+                "valueCode": "all-of"
+              }
+            ],
+            "name": "ConceptualCohortDefinition: Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, myc...",
+            "type": "person",
+            "membership": "definitional",
+            "description": "Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, mycobacterial, or other pathogens (excluding fungal infections of nail beds) or any major episode of infection requiring hospitalization or treatment with IV antibiotics",
+            "characteristic": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "75323-6",
+                      "display": "Condition"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "87628006",
+                      "display": "Bacterial infectious disease"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime",
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "bacterial"
+                  }
+                ],
+                "exclude": true
+              },
+              {
+                "code": {
+                  "text": "Defined by Reference"
+                },
+                "valueReference": {
+                  "reference": "#nct04077723-exprespnode-5",
+                  "type": "Group",
+                  "display": "ConceptualCohortDefinition: Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, myc..."
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, mycobacterial, or other pathogens (excluding fungal infections of nail beds) or any major episode of infection requiring hospitalization or treatment with IV antibiotics"
+                  }
+                ],
+                "exclude": true
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "nct04077723-exprespnode-7",
+            "modifierExtension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+                "valueCode": "all-of"
+              }
+            ],
+            "name": "ConceptualCohortDefinition: Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, myc...",
+            "type": "person",
+            "membership": "definitional",
+            "description": "Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, mycobacterial, or other pathogens (excluding fungal infections of nail beds) or any major episode of infection requiring hospitalization or treatment with IV antibiotics",
+            "characteristic": [
+              {
+                "code": {
+                  "text": "Defined by Reference"
+                },
+                "valueReference": {
+                  "reference": "#nct04077723-exprespnode-1",
+                  "type": "Group",
+                  "display": "ConceptualCohortDefinition: Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, myc..."
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, mycobacterial, or other pathogens (excluding fungal infections of nail beds) or any major episode of infection requiring hospitalization or treatment with IV antibiotics"
+                  }
+                ],
+                "exclude": true
+              },
+              {
+                "code": {
+                  "text": "Defined by Reference"
+                },
+                "valueReference": {
+                  "reference": "#nct04077723-exprespnode-6",
+                  "type": "Group",
+                  "display": "ConceptualCohortDefinition: Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, myc..."
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, mycobacterial, or other pathogens (excluding fungal infections of nail beds) or any major episode of infection requiring hospitalization or treatment with IV antibiotics"
+                  }
+                ],
+                "exclude": true
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "nct04077723-exprespnode-8",
+            "modifierExtension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+                "valueCode": "any-of"
+              }
+            ],
+            "name": "ConceptualCohortDefinition: Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, myc...",
+            "type": "person",
+            "membership": "definitional",
+            "description": "Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, mycobacterial, or other pathogens (excluding fungal infections of nail beds) or any major episode of infection requiring hospitalization or treatment with IV antibiotics",
+            "characteristic": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "75323-6",
+                      "display": "Condition"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "40733004",
+                      "display": "Infectious disease"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime",
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "known active infection"
+                  }
+                ],
+                "exclude": true
+              },
+              {
+                "code": {
+                  "text": "Defined by CodeableConcept"
+                },
+                "valueCodeableConcept": {
+                  "text": "reactivation of a latent infection"
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "reactivation of a latent infection"
+                  }
+                ],
+                "exclude": true
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "nct04077723-exprespnode-9",
+            "modifierExtension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+                "valueCode": "all-of"
+              }
+            ],
+            "name": "ConceptualCohortDefinition: Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, myc...",
+            "type": "person",
+            "membership": "definitional",
+            "description": "Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, mycobacterial, or other pathogens (excluding fungal infections of nail beds) or any major episode of infection requiring hospitalization or treatment with IV antibiotics",
+            "characteristic": [
+              {
+                "code": {
+                  "text": "Defined by Reference"
+                },
+                "valueReference": {
+                  "reference": "#nct04077723-exprespnode-7",
+                  "type": "Group",
+                  "display": "ConceptualCohortDefinition: Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, myc..."
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, mycobacterial, or other pathogens (excluding fungal infections of nail beds) or any major episode of infection requiring hospitalization or treatment with IV antibiotics"
+                  }
+                ],
+                "exclude": true
+              },
+              {
+                "code": {
+                  "text": "Defined by Reference"
+                },
+                "valueReference": {
+                  "reference": "#nct04077723-exprespnode-8",
+                  "type": "Group",
+                  "display": "ConceptualCohortDefinition: Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, myc..."
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, mycobacterial, or other pathogens (excluding fungal infections of nail beds) or any major episode of infection requiring hospitalization or treatment with IV antibiotics"
+                  }
+                ],
+                "exclude": true
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "nct04077723-exprespnode-10",
+            "modifierExtension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+                "valueCode": "any-of"
+              }
+            ],
+            "name": "ConceptualCohortDefinition: Pregnant or breast-feeding or intending to become pregnant during the study",
+            "type": "person",
+            "membership": "definitional",
+            "description": "Pregnant or breast-feeding or intending to become pregnant during the study",
+            "characteristic": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/fhir-types",
+                      "code": "Observation",
+                      "display": "Observation"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "413712001",
+                      "display": "Breastfeeding (mother)"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime",
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "breast-feeding"
+                  }
+                ],
+                "exclude": true
+              },
+              {
+                "code": {
+                  "text": "Defined by CodeableConcept"
+                },
+                "valueCodeableConcept": {
+                  "text": "intending to become pregnant during the study"
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "intending to become pregnant during the study"
+                  }
+                ],
+                "exclude": true
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "nct04077723-exprespnode-11",
+            "modifierExtension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+                "valueCode": "any-of"
+              }
+            ],
+            "name": "ConceptualCohortDefinition: Pregnant or breast-feeding or intending to become pregnant during the study",
+            "type": "person",
+            "membership": "definitional",
+            "description": "Pregnant or breast-feeding or intending to become pregnant during the study",
+            "characteristic": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/fhir-types",
+                      "code": "Observation",
+                      "display": "Observation"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "289908002",
+                      "display": "Pregnancy"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime",
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "Pregnant"
+                  }
+                ],
+                "exclude": true
+              },
+              {
+                "code": {
+                  "text": "Defined by Reference"
+                },
+                "valueReference": {
+                  "reference": "#nct04077723-exprespnode-10",
+                  "type": "Group",
+                  "display": "ConceptualCohortDefinition: Pregnant or breast-feeding or intending to become pregnant during the study"
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "Pregnant or breast-feeding or intending to become pregnant during the study"
+                  }
+                ],
+                "exclude": true
+              }
+            ]
+          }
+        ],
+        "modifierExtension": [
+          {
+            "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+            "valueCode": "all-of"
+          }
+        ],
+        "name": "USDM Eligibility Criteria for An Open-Label, Phase I/II Study to Evaluate the Safety, Pharmacokinetics and Preliminary Anti-Tumor Activity of Englumafusp Alfa (RO7227166, A CD19 Targeted 4-1BB Ligand) in Combination With Obinutuzumab and in Combination With Glofitamab Following a Pre-treatment Dose of Obinutuzumab Administered in Participants With Relapsed/Refractory B-Cell Non-Hodgkin's Lymphoma",
+        "active": true,
+        "type": "person",
+        "membership": "definitional",
+        "description": "Inclusion Criteria:\n\n* History or status of a histologically-confirmed hematological malignancy that is expected to express CD19 and CD20; relapse after or failure to respond to at least one prior treatment regimen; no available treatment options that are expected to prolong survival (Part I and II); relapsed after or failed to respond to only one prior systemic treatment regimen (Part III)\n* Must have at least one measurable target lesion (\\>/= 1.5 cm) in its largest dimension by computed tomography scan\n* Able and willing to provide a fresh biopsy from a safely accessible site, per Investigator's determination, providing the participant has more than one measurable target lesion\n* Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1, or \\</= 2 for some participants in Part III\n* Life expectancy of \\>/= 12 weeks\n* Adverse events from prior anti-cancer therapy must have resolved to Grade \\</= 1\n* Adequate liver, hematological, and renal function\n* Negative test results for acute or chronic hepatitis B virus infection\n* Negative test results for hepatitis C virus and HIV\n* The contraception and abstinence requirements are intended to prevent exposure of an embryo to the study treatment. The reliability of sexual abstinence for male and/or female enrollment eligibility needs to be evaluated in relation to the duration of the clinical study and the preferred and usual lifestyle of the participant. Periodic abstinence (e.g., calendar, ovulation, symptothermal, or post-ovulation methods) and withdrawal are not acceptable methods of preventing drug exposure\n* Female participants: A female participant is eligible to participate if she is not pregnant and not breastfeeding, and if at least one of the following applies: women of non-childbearing potential (WONCBP); women of child bearing potential (WOCBP) who agree to remain abstinent or use two highly effective contraceptive methods with a failure rate of \\<1% per year during the treatment period and for at least 18 months after obinutuzumab or 3.5 months after the last dose of englumafusp alfa, 2 months after last dose of glofitamab, or 3 months after the last dose of tocilizumab, whichever is longer. Examples of contraceptive methods with a failure rate of \\< 1% per year include bilateral tubal occlusion/ ligation, male sexual partner who is sterilized, established proper use of hormonal contraceptives that inhibit ovulation, hormone-releasing intrauterine devices and copper intrauterine devices. Hormonal contraceptive methods must be supplemented by a barrier method; have a negative pregnancy test (blood) within the 7 days prior to the first study treatment administration\n* Male participants: During the treatment period and for at least 3 months after obinutuzumab, or 3.5 months after the last dose of englumafusp alfa, 2 months after the last dose of glofitamab, or 2 months after the last dose of tocilizumab whichever is longer, agreement to: Remain abstinent or use contraceptive measures such as a condom plus an additional contraceptive method that together result in a failure rate of \\< 1% per year, with a partner who is a women of childbearing potential. With pregnant female partner, remain abstinent or use contraceptive measures such as a condom to avoid exposing the embryo; refrain from donating sperm during this same period\n\nExclusion Criteria:\n\n* Circulating lymphoma cells, defined by out of range (high) absolute lymphocyte count (ALC) or the presence of abnormal cells in the peripheral blood signifying circulating lymphoma cells (for some participants in Part III, ALC only)\n* Participants with acute bacterial, viral, or fungal infection at baseline, confirmed by a positive blood culture within 72 hours prior to obinutuzumab infusion or by clinical judgment in the absence of a positive blood culture\n* Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, mycobacterial, or other pathogens (excluding fungal infections of nail beds) or any major episode of infection requiring hospitalization or treatment with IV antibiotics\n* Pregnant or breast-feeding or intending to become pregnant during the study\n* Prior treatment with systemic immunotherapeutic agents, including, but not limited to, radio-immunoconjugates, antibody-drug conjugates, immune/cytokines or monoclonal antibodies within 4 weeks or five half-lives of the drug, whichever is shorter, before obinutuzumab infusion\n* History of treatment-emergent immune-related AEs associated with prior immunotherapeutic agents and auto-immune disease\n* Treatment with standard radiotherapy, any chemotherapeutic agent, or treatment with any other investigational or approved anti-cancer agent within 4 weeks or 5 half-lives of the drug, whichever is shorter, prior to obinutuzumab infusion\n* Prior solid organ transplantation\n* Prior allogeneic stem cell transplant\n* Autologous stem cell transplant within 100 days prior to obinutuzumab infusion\n* History of severe allergic or anaphylactic reactions to monoclonal antibody therapy and confirmed progressive multifocal leukoencephalopathy\n* Current or past history of central nervous system (CNS) lymphoma and CNS disease\n* Evidence of significant, uncontrolled concomitant diseases that could affect compliance with the protocol or interpretation of results, including diabetes mellitus, history of relevant pulmonary disorders and known autoimmune diseases\n* Major surgery or significant traumatic injury \\< 28 days prior to the Gpt infusion or anticipation of the need for major surgery during study treatment\n* Participants with another invasive malignancy in the last 2 years\n* Significant cardiovascular disease\n* Administration of a live, attenuated vaccine within 4 weeks before Gpt infusion or anticipation that such a live attenuated vaccine will be required during the study\n* Received systemic immunosuppressive medications (including but not limited to cyclohosphamide, azathioprine, methotrexate, thalidomide, and anti-tumor necrosis factor agents) within two weeks prior to Gpt, with the exception of corticosteroid treatment \\<=25 mg/day of prednisone or equivalent, however there must be documentation that the participant was on a stable dose of at least a 2-week duration prior to Gpt infusion. Inhaled and topical steroids are permitted",
+        "characteristic": [
+          {
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "History or status of a histologically-confirmed hematological malignancy that is expected to express CD19 and CD20; relapse after or failure to respond to at least one prior treatment regimen; no available treatment options that are expected to prolong survival (Part I and II); relapsed after or failed to respond to only one prior systemic treatment regimen (Part III"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "History or status of a histologically-confirmed hematological malignancy that is expected to express CD19 and CD20; relapse after or failure to respond to at least one prior treatment regimen; no available treatment options that are expected to prolong survival (Part I and II); relapsed after or failed to respond to only one prior systemic treatment regimen (Part III"
+              }
+            ],
+            "exclude": false
+          },
+          {
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Circulating lymphoma cells, defined by out of range (high) absolute lymphocyte count (ALC) or the presence of abnormal cells in the peripheral blood signifying circulating lymphoma cells (for some participants in Part III, ALC only"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Circulating lymphoma cells, defined by out of range (high) absolute lymphocyte count (ALC) or the presence of abnormal cells in the peripheral blood signifying circulating lymphoma cells (for some participants in Part III, ALC only"
+              }
+            ],
+            "exclude": true
+          },
+          {
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Must have at least one measurable target lesion (>/= 1.5 cm) in its largest dimension by computed tomography scan"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Must have at least one measurable target lesion (>/= 1.5 cm) in its largest dimension by computed tomography scan"
+              }
+            ],
+            "exclude": false
+          },
+          {
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Participants with acute bacterial, viral, or fungal infection at baseline, confirmed by a positive blood culture within 72 hours prior to obinutuzumab infusion or by clinical judgment in the absence of a positive blood culture"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Participants with acute bacterial, viral, or fungal infection at baseline, confirmed by a positive blood culture within 72 hours prior to obinutuzumab infusion or by clinical judgment in the absence of a positive blood culture"
+              }
+            ],
+            "exclude": true
+          },
+          {
+            "code": {
+              "text": "Defined by Reference"
+            },
+            "valueReference": {
+              "reference": "#nct04077723-exprespnode-9",
+              "type": "Group",
+              "display": "ConceptualCohortDefinition: Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, myc..."
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Participants with known active infection, or reactivation of a latent infection, whether bacterial, viral fungal, mycobacterial, or other pathogens (excluding fungal infections of nail beds) or any major episode of infection requiring hospitalization or treatment with IV antibiotics"
+              }
+            ],
+            "exclude": true
+          },
+          {
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Able and willing to provide a fresh biopsy from a safely accessible site, per Investigator's determination, providing the participant has more than one measurable target lesion"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Able and willing to provide a fresh biopsy from a safely accessible site, per Investigator's determination, providing the participant has more than one measurable target lesion"
+              }
+            ],
+            "exclude": false
+          },
+          {
+            "code": {
+              "text": "Defined by Reference"
+            },
+            "valueReference": {
+              "reference": "#nct04077723-exprespnode-11",
+              "type": "Group",
+              "display": "ConceptualCohortDefinition: Pregnant or breast-feeding or intending to become pregnant during the study"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Pregnant or breast-feeding or intending to become pregnant during the study"
+              }
+            ],
+            "exclude": true
+          },
+          {
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1, or </= 2 for some participants in Part III"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1, or </= 2 for some participants in Part III"
+              }
+            ],
+            "exclude": false
+          },
+          {
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Life expectancy of >/= 12 weeks"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Life expectancy of >/= 12 weeks"
+              }
+            ],
+            "exclude": false
+          },
+          {
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Prior treatment with systemic immunotherapeutic agents, including, but not limited to, radio-immunoconjugates, antibody-drug conjugates, immune/cytokines or monoclonal antibodies within 4 weeks or five half-lives of the drug, whichever is shorter, before obinutuzumab infusion"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Prior treatment with systemic immunotherapeutic agents, including, but not limited to, radio-immunoconjugates, antibody-drug conjugates, immune/cytokines or monoclonal antibodies within 4 weeks or five half-lives of the drug, whichever is shorter, before obinutuzumab infusion"
+              }
+            ],
+            "exclude": true
+          },
+          {
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "History of treatment-emergent immune-related AEs associated with prior immunotherapeutic agents and auto-immune disease"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "History of treatment-emergent immune-related AEs associated with prior immunotherapeutic agents and auto-immune disease"
+              }
+            ],
+            "exclude": true
+          },
+          {
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Adverse events from prior anti-cancer therapy must have resolved to Grade </= 1"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Adverse events from prior anti-cancer therapy must have resolved to Grade </= 1"
+              }
+            ],
+            "exclude": false
+          },
+          {
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Treatment with standard radiotherapy, any chemotherapeutic agent, or treatment with any other investigational or approved anti-cancer agent within 4 weeks or 5 half-lives of the drug, whichever is shorter, prior to obinutuzumab infusion"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Treatment with standard radiotherapy, any chemotherapeutic agent, or treatment with any other investigational or approved anti-cancer agent within 4 weeks or 5 half-lives of the drug, whichever is shorter, prior to obinutuzumab infusion"
+              }
+            ],
+            "exclude": true
+          },
+          {
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Adequate liver, hematological, and renal function"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Adequate liver, hematological, and renal function"
+              }
+            ],
+            "exclude": false
+          },
+          {
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Negative test results for acute or chronic hepatitis B virus infection"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Negative test results for acute or chronic hepatitis B virus infection"
+              }
+            ],
+            "exclude": false
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "71388002",
+                  "display": "Procedure (procedure)"
+                }
+              ]
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "313039003",
+                  "display": "Solid organ transplant to recipient"
+                }
+              ]
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime",
+                "extension": [
+                  {
+                    "url": "contextCode",
+                    "valueCodeableConcept": {
+                      "coding": [
+                        {
+                          "system": "http://snomed.info/sct",
+                          "code": "709491003",
+                          "display": "Enrollment in clinical trial"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "url": "offsetRange",
+                    "valueRange": {
+                      "low": {
+                        "value": 0,
+                        "unit": "d"
+                      },
+                      "high": {
+                        "value": 0,
+                        "unit": "d"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Prior solid organ transplantation"
+              }
+            ],
+            "exclude": true
+          },
+          {
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Prior allogeneic stem cell transplant"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Prior allogeneic stem cell transplant"
+              }
+            ],
+            "exclude": true
+          },
+          {
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Negative test results for hepatitis C virus and HIV"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Negative test results for hepatitis C virus and HIV"
+              }
+            ],
+            "exclude": false
+          },
+          {
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Autologous stem cell transplant within 100 days prior to obinutuzumab infusion"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Autologous stem cell transplant within 100 days prior to obinutuzumab infusion"
+              }
+            ],
+            "exclude": true
+          },
+          {
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "The contraception and abstinence requirements are intended to prevent exposure of an embryo to the study treatment. The reliability of sexual abstinence for male and/or female enrollment eligibility needs to be evaluated in relation to the duration of the clinical study and the preferred and usual lifestyle of the participant. Periodic abstinence (e.g., calendar, ovulation, symptothermal, or post-ovulation methods) and withdrawal are not acceptable methods of preventing drug exposure"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "The contraception and abstinence requirements are intended to prevent exposure of an embryo to the study treatment. The reliability of sexual abstinence for male and/or female enrollment eligibility needs to be evaluated in relation to the duration of the clinical study and the preferred and usual lifestyle of the participant. Periodic abstinence (e.g., calendar, ovulation, symptothermal, or post-ovulation methods) and withdrawal are not acceptable methods of preventing drug exposure"
+              }
+            ],
+            "exclude": false
+          },
+          {
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Female participants: A female participant is eligible to participate if she is not pregnant and not breastfeeding, and if at least one of the following applies: women of non-childbearing potential (WONCBP); women of child bearing potential (WOCBP) who agree to remain abstinent or use two highly effective contraceptive methods with a failure rate of <1% per year during the treatment period and for at least 18 months after obinutuzumab or 3.5 months after the last dose of englumafusp alfa, 2 months after last dose of glofitamab, or 3 months after the last dose of tocilizumab, whichever is longer. Examples of contraceptive methods with a failure rate of < 1% per year include bilateral tubal occlusion/ ligation, male sexual partner who is sterilized, established proper use of hormonal contraceptives that inhibit ovulation, hormone-releasing intrauterine devices and copper intrauterine devices. Hormonal contraceptive methods must be supplemented by a barrier method; have a negative pregnancy test (blood) within the 7 days prior to the first study treatment administration"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Female participants: A female participant is eligible to participate if she is not pregnant and not breastfeeding, and if at least one of the following applies: women of non-childbearing potential (WONCBP); women of child bearing potential (WOCBP) who agree to remain abstinent or use two highly effective contraceptive methods with a failure rate of <1% per year during the treatment period and for at least 18 months after obinutuzumab or 3.5 months after the last dose of englumafusp alfa, 2 months after last dose of glofitamab, or 3 months after the last dose of tocilizumab, whichever is longer. Examples of contraceptive methods with a failure rate of < 1% per year include bilateral tubal occlusion/ ligation, male sexual partner who is sterilized, established proper use of hormonal contraceptives that inhibit ovulation, hormone-releasing intrauterine devices and copper intrauterine devices. Hormonal contraceptive methods must be supplemented by a barrier method; have a negative pregnancy test (blood) within the 7 days prior to the first study treatment administration"
+              }
+            ],
+            "exclude": false
+          },
+          {
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "History of severe allergic or anaphylactic reactions to monoclonal antibody therapy and confirmed progressive multifocal leukoencephalopathy"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "History of severe allergic or anaphylactic reactions to monoclonal antibody therapy and confirmed progressive multifocal leukoencephalopathy"
+              }
+            ],
+            "exclude": true
+          },
+          {
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Current or past history of central nervous system (CNS) lymphoma and CNS disease"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Current or past history of central nervous system (CNS) lymphoma and CNS disease"
+              }
+            ],
+            "exclude": true
+          },
+          {
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Male participants: During the treatment period and for at least 3 months after obinutuzumab, or 3.5 months after the last dose of englumafusp alfa, 2 months after the last dose of glofitamab, or 2 months after the last dose of tocilizumab whichever is longer, agreement to: Remain abstinent or use contraceptive measures such as a condom plus an additional contraceptive method that together result in a failure rate of < 1% per year, with a partner who is a women of childbearing potential. With pregnant female partner, remain abstinent or use contraceptive measures such as a condom to avoid exposing the embryo; refrain from donating sperm during this same period"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Male participants: During the treatment period and for at least 3 months after obinutuzumab, or 3.5 months after the last dose of englumafusp alfa, 2 months after the last dose of glofitamab, or 2 months after the last dose of tocilizumab whichever is longer, agreement to: Remain abstinent or use contraceptive measures such as a condom plus an additional contraceptive method that together result in a failure rate of < 1% per year, with a partner who is a women of childbearing potential. With pregnant female partner, remain abstinent or use contraceptive measures such as a condom to avoid exposing the embryo; refrain from donating sperm during this same period"
+              }
+            ],
+            "exclude": false
+          },
+          {
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Evidence of significant, uncontrolled concomitant diseases that could affect compliance with the protocol or interpretation of results, including diabetes mellitus, history of relevant pulmonary disorders and known autoimmune diseases"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Evidence of significant, uncontrolled concomitant diseases that could affect compliance with the protocol or interpretation of results, including diabetes mellitus, history of relevant pulmonary disorders and known autoimmune diseases"
+              }
+            ],
+            "exclude": true
+          },
+          {
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Major surgery or significant traumatic injury < 28 days prior to the Gpt infusion or anticipation of the need for major surgery during study treatment"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Major surgery or significant traumatic injury < 28 days prior to the Gpt infusion or anticipation of the need for major surgery during study treatment"
+              }
+            ],
+            "exclude": true
+          },
+          {
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Participants with another invasive malignancy in the last 2 years"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Participants with another invasive malignancy in the last 2 years"
+              }
+            ],
+            "exclude": true
+          },
+          {
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Significant cardiovascular disease"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Significant cardiovascular disease"
+              }
+            ],
+            "exclude": true
+          },
+          {
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Administration of a live, attenuated vaccine within 4 weeks before Gpt infusion or anticipation that such a live attenuated vaccine will be required during the study"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Administration of a live, attenuated vaccine within 4 weeks before Gpt infusion or anticipation that such a live attenuated vaccine will be required during the study"
+              }
+            ],
+            "exclude": true
+          },
+          {
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Received systemic immunosuppressive medications (including but not limited to cyclophosphamide, azathioprine, methotrexate, thalidomide, and anti-tumor necrosis factor agents) within two weeks prior to Gpt, with the exception of corticosteroid treatment <=25 mg/day of prednisone or equivalent, however there must be documentation that the participant was on a stable dose of at least a 2-week duration prior to Gpt infusion. Inhaled and topical steroids are permitted"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Received systemic immunosuppressive medications (including but not limited to cyclophosphamide, azathioprine, methotrexate, thalidomide, and anti-tumor necrosis factor agents) within two weeks prior to Gpt, with the exception of corticosteroid treatment <=25 mg/day of prednisone or equivalent, however there must be documentation that the participant was on a stable dose of at least a 2-week duration prior to Gpt infusion. Inhaled and topical steroids are permitted"
+              }
+            ],
+            "exclude": true
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Group/NCT04077723-comparison-group-0",
+      "resource": {
+        "resourceType": "Group",
+        "id": "NCT04077723-comparison-group-0",
+        "name": "Part I",
+        "active": true,
+        "type": "person",
+        "membership": "definitional",
+        "code": {
+          "text": "Experimental"
+        },
+        "description": "Combination Dose-Escalation: Mixed r/r NHL participants will receive a fixed dose of obinutuzumab up to seven days prior to first administration of englumafusp alfa. Englumafusp alfa will be administered by intravenous (IV) infusion in combination with obinutuzumab in a three-weekly schedule (Q3W)."
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Group/NCT04077723-comparison-group-1",
+      "resource": {
+        "resourceType": "Group",
+        "id": "NCT04077723-comparison-group-1",
+        "name": "Part II",
+        "active": true,
+        "type": "person",
+        "membership": "definitional",
+        "code": {
+          "text": "Experimental"
+        },
+        "description": "Combination Dose-Escalation: Mixed r/r participants and participants with mixed r/r mantle cell lymphoma (MCL) and Richters transformation will receive a fixed dose of obinutuzumab seven days prior to first administration of englumafusp alfa. Englumafusp alfa will be administered by IV infusion in combination with glofitamab in a three-weekly schedule (Q3W)."
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Group/NCT04077723-comparison-group-2",
+      "resource": {
+        "resourceType": "Group",
+        "id": "NCT04077723-comparison-group-2",
+        "name": "Part III",
+        "active": true,
+        "type": "person",
+        "membership": "definitional",
+        "code": {
+          "text": "Experimental"
+        },
+        "description": "Dose-Expansion Stage: Participants with r/r diffuse large B-cell lymphoma not otherwise specified (DLBCL NOS), high-grade B-cell lymphoma (HGBCL), primary mediastinal B-cell lymphoma (PMBCL), and DLBCL arising from FL (transformed FL) will receive englumafusp alfa administered by IV infusion in combination with glofitamab in a three-weekly schedule (Q3W)."
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/EvidenceVariable/nct04077723-evidencevariable-1",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct04077723-evidencevariable-1",
+        "name": "Nct04077723_evidencevariable_1",
+        "title": "Englumafusp alfa",
+        "status": "active",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Englumafusp alfa"
+            }
+          }
+        ],
+        "handling": "dichotomous",
+        "category": [
+          {
+            "name": "Intervention Type",
+            "valueCodeableConcept": {
+              "text": "DRUG"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/EvidenceVariable/nct04077723-evidencevariable-2",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct04077723-evidencevariable-2",
+        "name": "Nct04077723_evidencevariable_2",
+        "title": "Obinutuzumab",
+        "status": "active",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Obinutuzumab"
+            }
+          }
+        ],
+        "handling": "dichotomous",
+        "category": [
+          {
+            "name": "Intervention Type",
+            "valueCodeableConcept": {
+              "text": "DRUG"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/EvidenceVariable/nct04077723-evidencevariable-3",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct04077723-evidencevariable-3",
+        "name": "Nct04077723_evidencevariable_3",
+        "title": "Glofitamab",
+        "status": "active",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Glofitamab"
+            }
+          }
+        ],
+        "handling": "dichotomous",
+        "category": [
+          {
+            "name": "Intervention Type",
+            "valueCodeableConcept": {
+              "text": "DRUG"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/EvidenceVariable/nct04077723-evidencevariable-4",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct04077723-evidencevariable-4",
+        "name": "Nct04077723_evidencevariable_4",
+        "title": "Tocilizumab",
+        "status": "active",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Tocilizumab"
+            }
+          }
+        ],
+        "handling": "dichotomous",
+        "category": [
+          {
+            "name": "Intervention Type",
+            "valueCodeableConcept": {
+              "text": "DRUG"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-1",
+      "resource": {
+        "id": "nct04077723-site-1",
+        "resourceType": "Location",
+        "name": "City of Hope Medical Center",
+        "address": {
+          "city": "Pasadena",
+          "state": "California",
+          "country": "United States",
+          "postalCode": "91105"
+        },
+        "position": {
+          "latitude": 34.14778,
+          "longitude": -118.14452
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-2",
+      "resource": {
+        "id": "nct04077723-site-2",
+        "resourceType": "Location",
+        "name": "University of California San Francisco",
+        "address": {
+          "city": "San Francisco",
+          "state": "California",
+          "country": "United States",
+          "postalCode": "94158"
+        },
+        "position": {
+          "latitude": 37.77493,
+          "longitude": -122.41942
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-3",
+      "resource": {
+        "id": "nct04077723-site-3",
+        "resourceType": "Location",
+        "name": "Washington University School of Medicine",
+        "address": {
+          "city": "St Louis",
+          "state": "Missouri",
+          "country": "United States",
+          "postalCode": "63110"
+        },
+        "position": {
+          "latitude": 38.62727,
+          "longitude": -90.19789
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-4",
+      "resource": {
+        "id": "nct04077723-site-4",
+        "resourceType": "Location",
+        "name": "The University of Texas MD Anderson Cancer Center",
+        "address": {
+          "city": "Houston",
+          "state": "Texas",
+          "country": "United States",
+          "postalCode": "77030-4009"
+        },
+        "position": {
+          "latitude": 29.76328,
+          "longitude": -95.36327
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-5",
+      "resource": {
+        "id": "nct04077723-site-5",
+        "resourceType": "Location",
+        "name": "Peter Maccallum Cancer Centre",
+        "address": {
+          "city": "Melbourne",
+          "state": "Victoria",
+          "country": "Australia",
+          "postalCode": "3000"
+        },
+        "position": {
+          "latitude": -37.814,
+          "longitude": 144.96332
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-6",
+      "resource": {
+        "id": "nct04077723-site-6",
+        "resourceType": "Location",
+        "name": "The Alfred Hospital",
+        "address": {
+          "city": "Melbourne",
+          "state": "Victoria",
+          "country": "Australia",
+          "postalCode": "3004"
+        },
+        "position": {
+          "latitude": -37.814,
+          "longitude": 144.96332
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-7",
+      "resource": {
+        "id": "nct04077723-site-7",
+        "resourceType": "Location",
+        "name": "UZ Gent",
+        "address": {
+          "city": "Ghent",
+          "state": "Oost-vlaanderen",
+          "country": "Belgium",
+          "postalCode": "9000"
+        },
+        "position": {
+          "latitude": 51.05,
+          "longitude": 3.71667
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-8",
+      "resource": {
+        "id": "nct04077723-site-8",
+        "resourceType": "Location",
+        "name": "Queen Elizabeth II Health Sciences Centre",
+        "address": {
+          "city": "Halifax",
+          "state": "Nova Scotia",
+          "country": "Canada",
+          "postalCode": "B3H 2Y9"
+        },
+        "position": {
+          "latitude": 44.64269,
+          "longitude": -63.57688
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-9",
+      "resource": {
+        "id": "nct04077723-site-9",
+        "resourceType": "Location",
+        "name": "Jewish General Hospital",
+        "address": {
+          "city": "Montreal",
+          "state": "Quebec",
+          "country": "Canada",
+          "postalCode": "H3T 1E2"
+        },
+        "position": {
+          "latitude": 45.50884,
+          "longitude": -73.58781
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-10",
+      "resource": {
+        "id": "nct04077723-site-10",
+        "resourceType": "Location",
+        "name": "Beijing Cancer Hospital",
+        "address": {
+          "city": "Beijing",
+          "state": "Beijing Municipality",
+          "country": "China",
+          "postalCode": "100142"
+        },
+        "position": {
+          "latitude": 39.9075,
+          "longitude": 116.39723
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-11",
+      "resource": {
+        "id": "nct04077723-site-11",
+        "resourceType": "Location",
+        "name": "Shandong Cancer Hospital",
+        "address": {
+          "city": "Jinan",
+          "state": "SD",
+          "country": "China",
+          "postalCode": "250117"
+        },
+        "position": {
+          "latitude": 36.66833,
+          "longitude": 116.99722
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-12",
+      "resource": {
+        "id": "nct04077723-site-12",
+        "resourceType": "Location",
+        "name": "Fudan University Shanghai Cancer Center",
+        "address": {
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "country": "China",
+          "postalCode": "201315"
+        },
+        "position": {
+          "latitude": 31.22222,
+          "longitude": 121.45806
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-13",
+      "resource": {
+        "id": "nct04077723-site-13",
+        "resourceType": "Location",
+        "name": "The First Affiliated Hospital of Xiamen University",
+        "address": {
+          "city": "Xiamen",
+          "state": "Fujian",
+          "country": "China",
+          "postalCode": "361003"
+        },
+        "position": {
+          "latitude": 24.47979,
+          "longitude": 118.08187
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-14",
+      "resource": {
+        "id": "nct04077723-site-14",
+        "resourceType": "Location",
+        "name": "Aarhus Universitetshospital Skejby",
+        "address": {
+          "city": "Aarhus N",
+          "state": "Central Jutland",
+          "country": "Denmark",
+          "postalCode": "8200"
+        },
+        "position": {
+          "latitude": 56.20367,
+          "longitude": 10.17317
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-15",
+      "resource": {
+        "id": "nct04077723-site-15",
+        "resourceType": "Location",
+        "name": "Rigshospitalet",
+        "address": {
+          "city": "Glostrup",
+          "state": "Capital Region of Denmark",
+          "country": "Denmark",
+          "postalCode": "2600"
+        },
+        "position": {
+          "latitude": 55.70968,
+          "longitude": 12.57862
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-16",
+      "resource": {
+        "id": "nct04077723-site-16",
+        "resourceType": "Location",
+        "name": "Odense Universitetshospital",
+        "address": {
+          "city": "Odense C",
+          "state": "Region Syd",
+          "country": "Denmark",
+          "postalCode": "5000"
+        },
+        "position": {
+          "latitude": 55.40841,
+          "longitude": 10.39538
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-17",
+      "resource": {
+        "id": "nct04077723-site-17",
+        "resourceType": "Location",
+        "name": "CHRU de Lille",
+        "address": {
+          "city": "Lille",
+          "country": "France",
+          "postalCode": "59037"
+        },
+        "position": {
+          "latitude": 50.63391,
+          "longitude": 3.05512
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-18",
+      "resource": {
+        "id": "nct04077723-site-18",
+        "resourceType": "Location",
+        "name": "CHU Montpellier - Saint ELOI",
+        "address": {
+          "city": "Montpellier",
+          "country": "France",
+          "postalCode": "34295"
+        },
+        "position": {
+          "latitude": 43.61093,
+          "longitude": 3.87635
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-19",
+      "resource": {
+        "id": "nct04077723-site-19",
+        "resourceType": "Location",
+        "name": "Centre Hospitalier Lyon Sud",
+        "address": {
+          "city": "Pierre-Bénite",
+          "state": "Rhone",
+          "country": "France",
+          "postalCode": "69495"
+        },
+        "position": {
+          "latitude": 45.70359,
+          "longitude": 4.82424
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-20",
+      "resource": {
+        "id": "nct04077723-site-20",
+        "resourceType": "Location",
+        "name": "CHU DE RENNES - CHU Pontchaillou",
+        "address": {
+          "city": "Rennes",
+          "country": "France",
+          "postalCode": "35033"
+        },
+        "position": {
+          "latitude": 48.11109,
+          "longitude": -1.67431
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-21",
+      "resource": {
+        "id": "nct04077723-site-21",
+        "resourceType": "Location",
+        "name": "Istituto Nazionale Tumori Irccs Fondazione g. Pascale",
+        "address": {
+          "city": "Naples",
+          "state": "Campania",
+          "country": "Italy",
+          "postalCode": "80131"
+        },
+        "position": {
+          "latitude": 40.85216,
+          "longitude": 14.26811
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-22",
+      "resource": {
+        "id": "nct04077723-site-22",
+        "resourceType": "Location",
+        "name": "Asst Papa Giovanni Xxiii",
+        "address": {
+          "city": "Bergamo",
+          "state": "Lombardy",
+          "country": "Italy",
+          "postalCode": "24127"
+        },
+        "position": {
+          "latitude": 45.69601,
+          "longitude": 9.66721
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-23",
+      "resource": {
+        "id": "nct04077723-site-23",
+        "resourceType": "Location",
+        "name": "Irccs Istituto Europeo Di Oncologia (IEO)",
+        "address": {
+          "city": "Milan",
+          "state": "Lombardy",
+          "country": "Italy",
+          "postalCode": "20141"
+        },
+        "position": {
+          "latitude": 45.46427,
+          "longitude": 9.18951
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-24",
+      "resource": {
+        "id": "nct04077723-site-24",
+        "resourceType": "Location",
+        "name": "Istituto Clinico Humanitas",
+        "address": {
+          "city": "Rozzano",
+          "state": "Lombardy",
+          "country": "Italy",
+          "postalCode": "20089"
+        },
+        "position": {
+          "latitude": 45.38193,
+          "longitude": 9.1559
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-25",
+      "resource": {
+        "id": "nct04077723-site-25",
+        "resourceType": "Location",
+        "name": "Auckland City Hospital, Cancer and Blood Research",
+        "address": {
+          "city": "Auckland",
+          "country": "New Zealand",
+          "postalCode": "1023"
+        },
+        "position": {
+          "latitude": -36.84853,
+          "longitude": 174.76349
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-26",
+      "resource": {
+        "id": "nct04077723-site-26",
+        "resourceType": "Location",
+        "name": "Waikato Hospital - Cancer and Blood Research Trials Unit",
+        "address": {
+          "city": "Hamilton",
+          "country": "New Zealand",
+          "postalCode": "3204"
+        },
+        "position": {
+          "latitude": -37.78333,
+          "longitude": 175.28333
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-27",
+      "resource": {
+        "id": "nct04077723-site-27",
+        "resourceType": "Location",
+        "name": "Pusan National University Hospital",
+        "address": {
+          "city": "Busan",
+          "state": "Republic of Korea",
+          "country": "South Korea",
+          "postalCode": "49241"
+        },
+        "position": {
+          "latitude": 35.10168,
+          "longitude": 129.03004
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-28",
+      "resource": {
+        "id": "nct04077723-site-28",
+        "resourceType": "Location",
+        "name": "Seoul National University Hospital",
+        "address": {
+          "city": "Seoul",
+          "state": "Korea",
+          "country": "South Korea",
+          "postalCode": "03080"
+        },
+        "position": {
+          "latitude": 37.566,
+          "longitude": 126.9784
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-29",
+      "resource": {
+        "id": "nct04077723-site-29",
+        "resourceType": "Location",
+        "name": "Asan Medical Center",
+        "address": {
+          "city": "Seoul",
+          "state": "Seoul",
+          "country": "South Korea",
+          "postalCode": "05505"
+        },
+        "position": {
+          "latitude": 37.566,
+          "longitude": 126.9784
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-30",
+      "resource": {
+        "id": "nct04077723-site-30",
+        "resourceType": "Location",
+        "name": "Samsung Medical Center",
+        "address": {
+          "city": "Seoul",
+          "state": "Seoul",
+          "country": "South Korea",
+          "postalCode": "06351"
+        },
+        "position": {
+          "latitude": 37.566,
+          "longitude": 126.9784
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-31",
+      "resource": {
+        "id": "nct04077723-site-31",
+        "resourceType": "Location",
+        "name": "Hospital Universitari Vall d'Hebron",
+        "address": {
+          "city": "Barcelona",
+          "state": "Barcelona [Barcelona]",
+          "country": "Spain",
+          "postalCode": "08035"
+        },
+        "position": {
+          "latitude": 41.38879,
+          "longitude": 2.15899
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-32",
+      "resource": {
+        "id": "nct04077723-site-32",
+        "resourceType": "Location",
+        "name": "Hospital Univ. 12 de Octubre",
+        "address": {
+          "city": "Madrid",
+          "country": "Spain",
+          "postalCode": "28041"
+        },
+        "position": {
+          "latitude": 40.4165,
+          "longitude": -3.70256
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-33",
+      "resource": {
+        "id": "nct04077723-site-33",
+        "resourceType": "Location",
+        "name": "Hospital Clinico Universitario Virgen de la Victoria",
+        "address": {
+          "city": "Málaga",
+          "state": "Malaga",
+          "country": "Spain",
+          "postalCode": "29010"
+        },
+        "position": {
+          "latitude": 36.72016,
+          "longitude": -4.42034
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-34",
+      "resource": {
+        "id": "nct04077723-site-34",
+        "resourceType": "Location",
+        "name": "The HOPE Clinical Trials Unit",
+        "address": {
+          "city": "Leicester",
+          "country": "United Kingdom",
+          "postalCode": "LE1 5WW"
+        },
+        "position": {
+          "latitude": 52.6386,
+          "longitude": -1.13169
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct04077723-site-35",
+      "resource": {
+        "id": "nct04077723-site-35",
+        "resourceType": "Location",
+        "name": "University College London Hospitals NHS Foundation Trust",
+        "address": {
+          "city": "London",
+          "state": "England - UK",
+          "country": "United Kingdom",
+          "postalCode": "W1T 7HA"
+        },
+        "position": {
+          "latitude": 51.50853,
+          "longitude": -0.12574
+        }
+      }
+    }
+  ],
+  "meta": {
+    "lastUpdated": "2026-11-12T06:55:20Z"
+  }
+}

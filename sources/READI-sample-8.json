@@ -1,0 +1,366 @@
+{
+  "id": "2023-509661-21-00-bundle-1",
+  "type": "collection",
+  "resourceType": "Bundle",
+  "entry": [
+    {
+      "fullUrl": "https://example.org/resources/ResearchStudy/2023-509661-21-00-researchstudy-1",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "2023-509661-21-00-researchstudy-1",
+        "meta": {
+          "lastUpdated": "2026-11-12T06:56:23Z"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/artifact-useContext",
+            "valueUsageContext": {
+              "code": {
+                "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+                "code": "age",
+                "display": "Age Range"
+              },
+              "valueRange": {
+                "low": {
+                  "value": 0,
+                  "unit": "Month"
+                },
+                "high": {
+                  "value": 1440,
+                  "unit": "Month"
+                }
+              }
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "value": "2023-509661-21-00",
+            "assigner": {
+              "display": "CTIS"
+            },
+            "type": {
+              "text": "study identifier"
+            }
+          },
+          {
+            "use": "official",
+            "value": "2023-509661-21-00",
+            "assigner": {
+              "display": "Erasmus Universitair Medisch Centrum Rotterdam (Erasmus MC)"
+            }
+          }
+        ],
+        "name": "2023-509661-21-00 FHIR Transform",
+        "title": "Bio-equivalence of Rosuvastatin 10 mg",
+        "label": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/title-type",
+                  "code": "short-title",
+                  "display": "Short title"
+                }
+              ]
+            },
+            "value": "Bio-equivalence of Rosuvastatin 10 mg"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/title-type",
+                  "code": "plain-language",
+                  "display": "Plain language title"
+                }
+              ]
+            },
+            "value": "Bio-equivalence of Rosuvastatin 10 mg"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/title-type",
+                  "code": "short-title",
+                  "display": "Short title"
+                }
+              ]
+            },
+            "value": "De bio-equivalentie van rosuvastatine 10mg",
+            "_value": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/language",
+                  "valueCode": "nl"
+                }
+              ]
+            }
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/title-type",
+                  "code": "plain-language",
+                  "display": "Plain language title"
+                }
+              ]
+            },
+            "value": "De bio-equivalentie van rosuvastatine 10mg",
+            "_value": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/language",
+                  "valueCode": "nl"
+                }
+              ]
+            }
+          }
+        ],
+        "status": "active",
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "phase-1",
+              "display": "Phase 1"
+            }
+          ],
+          "text": "Phase 1"
+        },
+        "site": [
+          {
+            "reference": "Location/2023-509661-21-00-site-1",
+            "type": "Location",
+            "display": "Erasmus Universitair Medisch Centrum Rotterdam (Erasmus MC)"
+          }
+        ],
+        "classifier": [
+          {
+            "text": "Trial Category 2"
+          },
+          {
+            "coding": [
+              {
+                "system": "https://fevir.net/resources/CodeSystem/419455",
+                "code": "includes-healthy-volunteers",
+                "display": "Includes healthy volunteers"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "https://fevir.net/resources/CodeSystem/419455",
+                "code": "includes-females",
+                "display": "Includes female subjects"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "https://fevir.net/resources/CodeSystem/419455",
+                "code": "includes-males",
+                "display": "Includes male subjects"
+              }
+            ]
+          },
+          {
+            "text": "Minimum Age: 0 Months"
+          }
+        ],
+        "associatedParty": [
+          {
+            "name": "Erasmus Universitair Medisch Centrum Rotterdam (Erasmus MC)",
+            "role": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/research-study-party-role",
+                  "code": "lead-sponsor",
+                  "display": "lead-sponsor"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Melvin Lafeber",
+            "role": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/research-study-party-role",
+                  "code": "recruitment-contact",
+                  "display": "recruitment-contact"
+                }
+              ]
+            },
+            "party": {
+              "reference": "Practitioner/2023-509661-21-00-CentralContact-0",
+              "type": "Practitioner"
+            }
+          },
+          {
+            "name": "Hans Hofland",
+            "role": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/research-study-party-role",
+                  "code": "recruitment-contact",
+                  "display": "recruitment-contact"
+                }
+              ]
+            },
+            "party": {
+              "reference": "Practitioner/2023-509661-21-00-CentralContact-1",
+              "type": "Practitioner"
+            }
+          }
+        ],
+        "progressStatus": [
+          {
+            "state": {
+              "text": "Overall study",
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/research-study-status",
+                  "code": "active",
+                  "display": "Active"
+                }
+              ]
+            },
+            "actual": true,
+            "period": {
+              "start": "2024-08-21",
+              "end": "2026-06-22"
+            }
+          },
+          {
+            "state": {
+              "text": "Overall study",
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/research-study-status",
+                  "code": "active",
+                  "display": "Active"
+                }
+              ]
+            },
+            "actual": true,
+            "period": {
+              "start": "2024-08-01"
+            }
+          },
+          {
+            "state": {
+              "text": "Overall study",
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/research-study-status",
+                  "code": "active",
+                  "display": "Active"
+                }
+              ]
+            },
+            "actual": true,
+            "period": {
+              "end": "2025-06-30"
+            }
+          }
+        ],
+        "recruitment": {
+          "targetNumber": 12,
+          "eligibility": {
+            "reference": "Group/2023-509661-21-00-eligibility-1",
+            "type": "Group",
+            "display": "USDM Eligibility Criteria for Bio-equivalence of Rosuvastatin 10 mg"
+          }
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Group/2023-509661-21-00-eligibility-1",
+      "resource": {
+        "resourceType": "Group",
+        "id": "2023-509661-21-00-eligibility-1",
+        "modifierExtension": [
+          {
+            "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+            "valueCode": "all-of"
+          }
+        ],
+        "name": "USDM Eligibility Criteria for ",
+        "active": true,
+        "type": "person",
+        "membership": "definitional"
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Practitioner/2023-509661-21-00-CentralContact-0",
+      "resource": {
+        "id": "2023-509661-21-00-CentralContact-0",
+        "resourceType": "Practitioner",
+        "name": [
+          {
+            "text": "Melvin Lafeber"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+31107040574"
+          },
+          {
+            "system": "email",
+            "value": "m.lafeber@erasmusmc.nl"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Practitioner/2023-509661-21-00-CentralContact-1",
+      "resource": {
+        "id": "2023-509661-21-00-CentralContact-1",
+        "resourceType": "Practitioner",
+        "name": [
+          {
+            "text": "Hans Hofland"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+31107040574"
+          },
+          {
+            "system": "email",
+            "value": "r.mijnster@erasmusmc.nl"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/2023-509661-21-00-site-1",
+      "resource": {
+        "id": "2023-509661-21-00-site-1",
+        "resourceType": "Location",
+        "name": "Erasmus Universitair Medisch Centrum Rotterdam (Erasmus MC)",
+        "address": {
+          "city": "Rotterdam",
+          "state": "South Holland",
+          "country": "Netherlands",
+          "postalCode": "3015 GD"
+        },
+        "position": {
+          "latitude": 51.9225,
+          "longitude": 4.47917
+        }
+      }
+    }
+  ],
+  "meta": {
+    "lastUpdated": "2026-11-12T06:56:23Z"
+  }
+}
