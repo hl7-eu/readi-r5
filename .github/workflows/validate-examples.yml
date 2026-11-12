@@ -18,6 +18,20 @@ on:
         description: "Produce a new baseline from this run (download it from the artifacts and commit it)"
         type: boolean
         default: false
+      tx_server:
+        description: "Terminology server ('default' = repository variable TX_SERVER, else tx.fhir.org; 'n/a' = no terminology checks)"
+        type: choice
+        default: "default"
+        options:
+          - "default"
+          - "https://tx.fhir.org/r5"
+          - "https://tx.hl7europe.eu/r5"
+          - "https://dte-tx.ehealth.fgov.be/r5"
+          - "n/a"
+      tx_server_custom:
+        description: "Other terminology server URL (overrides the choice above when set)"
+        type: string
+        default: ""
 
 permissions:
   contents: read
@@ -30,7 +44,9 @@ concurrency:
 env:
   VALIDATOR_VERSION: "latest" # or pin a release, e.g. "7.0.3"
   FHIR_VERSION: "5.0.0"
-  TX_SERVER: "https://tx.fhir.org/r5" # use "n/a" to skip terminology checks
+  # Terminology server: custom input > selected input > repository variable TX_SERVER > tx.fhir.org.
+  # Scheduled runs have no inputs, so they use the repository variable or tx.fhir.org.
+  TX_SERVER: ${{ inputs.tx_server_custom || (inputs.tx_server != 'default' && inputs.tx_server) || vars.TX_SERVER || 'https://tx.fhir.org/r5' }}
   # Packages the examples need besides FHIR R5 core (space separated, e.g. "hl7.fhir.uv.extensions.r5#5.2.0")
   EXTRA_IGS: ""
   BASELINE: scripts/validation/baseline.json
@@ -128,6 +144,7 @@ jobs:
           java -Xmx4g -jar "$VALIDATOR_JAR" "${files[@]}" \
             -version "$FHIR_VERSION" \
             "${igs[@]}" \
+            -extension any \
             -tx "$TX_SERVER" \
             -output validation-output/results.json \
             -html-output validation-output/results.html \
