@@ -9,3 +9,6 @@
 # Examples:
 #   Type_Specific_Checks_DT_String_WS
 #   examples/legacy/* :: ^The extension .* could not be found
+
+# dom-6 best-practice warning: examples are not required to carry a narrative
+^Constraint failed: dom-6:
