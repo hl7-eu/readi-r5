@@ -1,0 +1,166 @@
+# Daily non-regression validation of the examples/ folder (FHIR R5).
+# For the time being there are no READI R5 profiles: the examples are validated
+# against the FHIR R5 core specification (plus EXTRA_IGS). When FSH profiles are
+# added to this repository, re-introduce a SUSHI step and pass
+# "-ig fsh-generated/resources" to the validator (see hl7-eu/readi).
+name: Validate examples
+
+on:
+  schedule:
+    - cron: "0 5 * * *" # every day at 05:00 UTC; skipped if nothing was pushed
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Run even if no new commit since the last run"
+        type: boolean
+        default: true
+      update_baseline:
+        description: "Produce a new baseline from this run (download it from the artifacts and commit it)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: validate-examples
+  cancel-in-progress: true
+
+env:
+  VALIDATOR_VERSION: "latest" # or pin a release, e.g. "7.0.3"
+  FHIR_VERSION: "5.0.0"
+  TX_SERVER: "https://tx.fhir.org/r5" # use "n/a" to skip terminology checks
+  # Packages the examples need besides FHIR R5 core (space separated, e.g. "hl7.fhir.uv.extensions.r5#5.2.0")
+  EXTRA_IGS: ""
+  BASELINE: scripts/validation/baseline.json
+  SUPPRESSIONS: scripts/validation/suppressions.txt
+
+jobs:
+  check-changes:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+    steps:
+      - id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.force }}" = "true" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          last_sha=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow validate-examples.yml \
+            --branch "$GITHUB_REF_NAME" --status completed --limit 20 \
+            --json headSha,databaseId --jq "[.[] | select(.databaseId != ${{ github.run_id }})][0].headSha // \"\"")
+          if [ "$last_sha" = "$GITHUB_SHA" ]; then
+            echo "No new commit since the last run ($last_sha), skipping."
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  validate:
+    needs: check-changes
+    if: needs.check-changes.outputs.run == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: List examples
+        id: files
+        run: |
+          count=$(find examples -type f \( -name '*.json' -o -name '*.xml' \) | wc -l)
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+          if [ "$count" -eq 0 ]; then
+            echo "No examples in examples/: nothing to validate." | tee -a "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - uses: actions/setup-java@v4
+        if: steps.files.outputs.count != '0'
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      - uses: actions/setup-python@v5
+        if: steps.files.outputs.count != '0'
+        with:
+          python-version: "3.12"
+
+      - name: Resolve validator version
+        if: steps.files.outputs.count != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$VALIDATOR_VERSION" = "latest" ]; then
+            version=$(gh api repos/hapifhir/org.hl7.fhir.core/releases/latest --jq .tag_name)
+            echo "Latest validator release: $version"
+            echo "VALIDATOR_VERSION=$version" >> "$GITHUB_ENV"
+          fi
+
+      - name: Cache validator and FHIR packages
+        if: steps.files.outputs.count != '0'
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/validator
+            ~/.fhir/packages
+          key: fhir-${{ env.VALIDATOR_VERSION }}-${{ env.FHIR_VERSION }}-${{ hashFiles('.github/workflows/validate-examples.yml') }}
+          restore-keys: fhir-${{ env.VALIDATOR_VERSION }}-${{ env.FHIR_VERSION }}-
+
+      - name: Download validator
+        if: steps.files.outputs.count != '0'
+        run: |
+          mkdir -p ~/validator
+          jar=~/validator/validator_cli-${VALIDATOR_VERSION}.jar
+          [ -f "$jar" ] || curl -sSfL -o "$jar" \
+            "https://github.com/hapifhir/org.hl7.fhir.core/releases/download/${VALIDATOR_VERSION}/validator_cli.jar"
+          echo "VALIDATOR_JAR=$jar" >> "$GITHUB_ENV"
+
+      - name: Run validator
+        if: steps.files.outputs.count != '0'
+        run: |
+          mkdir -p validation-output
+          mapfile -t files < <(find examples -type f \( -name '*.json' -o -name '*.xml' \) | sort)
+          echo "Validating ${#files[@]} examples"
+          igs=()
+          for ig in $EXTRA_IGS; do igs+=(-ig "$ig"); done
+          # The validator exits non-zero when it finds errors; the report step decides pass/fail
+          java -Xmx4g -jar "$VALIDATOR_JAR" "${files[@]}" \
+            -version "$FHIR_VERSION" \
+            "${igs[@]}" \
+            -tx "$TX_SERVER" \
+            -output validation-output/results.json \
+            -html-output validation-output/results.html \
+            | tee validation-output/validator.log || true
+          test -s validation-output/results.json
+
+      - name: Build report
+        if: steps.files.outputs.count != '0'
+        id: report
+        run: |
+          extra=()
+          if [ "${{ inputs.update_baseline }}" = "true" ]; then
+            extra+=(--update-baseline)
+          fi
+          python scripts/validation/report.py validation-output/results.json \
+            --baseline "$BASELINE" \
+            --report validation-output/report.md \
+            --suppress "$SUPPRESSIONS" \
+            --validator-version "$VALIDATOR_VERSION" \
+            --context "Commit=${GITHUB_SHA::7} ($(git log -1 --format='%s' | head -c 80))" \
+            --context "Validator=${VALIDATOR_VERSION}" \
+            --context "FHIR=${FHIR_VERSION}" \
+            --context "Terminology=${TX_SERVER}" \
+            --context "Run=${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            "${extra[@]}"
+          if [ "${{ inputs.update_baseline }}" = "true" ]; then
+            cp "$BASELINE" validation-output/baseline.json
+          fi
+
+      - name: Upload report
+        if: always() && steps.files.outputs.count != '0'
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-report-${{ github.run_number }}
+          path: validation-output/
+          retention-days: 90
